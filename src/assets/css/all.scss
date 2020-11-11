@@ -564,3 +564,58 @@ button {
         display: block;
     }
 }
+/*暫時*/
+.filterBox{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.clickBox{
+    border: solid 1px;
+}
+
+.pagination {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: #fff;
+    background-color: rgb(180, 170, 170);
+}
+
+    .pagination div:hover {
+        color: #eee;
+    }
+
+.click-page {
+    width: 60px;
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.pagination .number {
+    width: 20px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+}
+
+.disable {
+    opacity: .3;
+    cursor: initial;
+}
+
+.pagination .disable:hover {
+    color: #fff !important;
+}
+
+.now-click {
+    font-weight: bold;
+    background-color: rgb(140, 140, 140);
+    color: #fff;
+    border-radius: 50%;
+}
+
+.running {
+    cursor: wait;
+}

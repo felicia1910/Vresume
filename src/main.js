@@ -13,7 +13,6 @@ import 'bootstrap'
 // setup
 import './setup/setupAxios'
 import './setup/setupFragment'
-import './setup/setupVueFilters'
 import './setup/setupBootstrap'
 
 
