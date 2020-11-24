@@ -72,13 +72,13 @@
 <script>
 
 export default {
-  name: "AboutRight",
+  name: 'AboutRight',
   components: {
 
   },
-  data() {
-    return {};
+  data () {
+    return {}
   },
   methods: {}
-};
+}
 </script>

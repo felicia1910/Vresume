@@ -1,0 +1,197 @@
+.upBox {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.upText {
+    display: inline-block;
+    padding: 3px 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.up {
+    width: 20px;
+    position: absolute;
+}
+
+.pigPic {
+    @include size(90%,450px);
+    overflow: hidden;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.pigPic img {
+    @include size(100%,450px);
+    @include pic-center;
+}
+
+/*大圖以下*/
+
+.textBox {
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+}
+
+.smallTextBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 按鈕 */
+
+.watchBtn {
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 30px;
+    @include gradualRed;
+}
+
+.watchBtn:hover {
+    @include gradualRed;
+}
+
+/*介紹*/
+
+.titleText,
+.detailText {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 20px;
+}
+
+.detailText {
+    font-size: 16px;
+    padding: 40px 20px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.useTitle {
+    padding: 40px 0px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 40%;
+    border-bottom: solid 6px #e26660;
+}
+
+.use {
+    padding: 40px 0px;
+    line-height: 34px;
+}
+
+.textIn {
+    width: 65%;
+    line-height: 34px;
+}
+
+/*介紹圖*/
+
+.detailPicBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+}
+
+.pic-small{
+    border-radius: 10px;
+    border: solid rgb(43, 42, 42) 8px;
+    margin: 10px 15px;
+    @include size(95%,250px);
+    @include pic-center;
+    cursor: pointer;
+}
+
+.picBoxForDetail {
+    overflow: hidden;
+    position: fixed;
+    @include size(100vw,100vh);
+    @include flex(center,center);
+    background-color: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.del{
+    font-size: 42px;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+    right: 50px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.picBoxForDetail img {
+    @include size(70%,70vh);
+    border-radius:20px; 
+    @include pic-center;
+}
+
+/*顏色盒*/
+
+.useColor {
+    padding: 40px 0 10px;
+}
+
+.useText {
+    padding: 20px 0;
+}
+
+/*連結*/
+
+.use a {
+    color: #eee;
+    transition: .5s;
+}
+
+.use a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 875px) {
+    .smallTextBox {
+        flex-wrap: wrap;
+    }
+    .btn,.watchBtn  {
+        width: 90%;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .watchBtn {
+        padding: 20px;
+    }
+    .textIn,
+    .useTitle {
+        width: 100%;
+    }
+    .detailPicBox {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+        pointer-events: none;
+        cursor: default;
+    }
+    .whiteBox{
+        padding: 10px;
+        border: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pigPic{
+        width: 100%;
+        height: 300px;
+    }
+    .textBox{
+        width: 100%;
+        padding: 20px 0;
+    }
+    
+}

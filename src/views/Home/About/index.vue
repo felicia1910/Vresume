@@ -6,19 +6,18 @@
 </template>
 
 <script>
-import AboutLeft from "./Left";
-import AboutRight from "./Right";
-
+import AboutLeft from './Left'
+import AboutRight from './Right'
 
 export default {
-  name: "home",
+  name: 'home',
   components: {
     AboutLeft,
     AboutRight
   },
-  data() {
-    return {};
+  data () {
+    return {}
   },
   methods: {}
-};
+}
 </script>

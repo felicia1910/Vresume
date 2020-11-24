@@ -18,6 +18,17 @@ $color_dark_red:#a35050 ;
     text-overflow: ellipsis;
 }
 
+@mixin gradualRed {
+    background: rgb(237, 208, 163);
+    background: -moz-linear-gradient(-45deg, rgba(237, 208, 163, 1) 0%, rgba(254, 144, 144, 1) 45%, rgba(226, 102, 96, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(237, 208, 163, 1) 0%, rgba(254, 144, 144, 1) 45%, rgba(226, 102, 96, 1) 100%);
+    background: linear-gradient(135deg, rgba(237, 208, 163, 1) 0%, rgba(254, 144, 144, 1) 45%, rgba(226, 102, 96, 1) 100%);
+}
+@mixin  pic-center {
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center center;
+}
 .t-red{
     color: $color_red;
 }

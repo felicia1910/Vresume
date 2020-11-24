@@ -21,6 +21,17 @@ export default new Router({
           path: '',
           name: 'home',
           component: () => import(/* webpackChunkName: "Home" */ '@/views/Home')
+        },
+        {
+          // default router page
+          path: '/profile',
+          name: 'profile',
+          component: () => import(/* webpackChunkName: "Home" */ '@/views/Profile')
+        },
+        {
+          path: '/profile/profile:id',
+          name: 'page',
+          component: () => import(/* webpackChunkName: "Home" */ '@/views/ProfilePage')
         }
       ]
     }

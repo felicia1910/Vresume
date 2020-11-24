@@ -2,7 +2,7 @@
     <div class="smallLeftBox">
 
       <div class="title">專業技能<span>Skill</span></div>
-      <div class="mySkill"> 
+      <div class="mySkill">
         <div class="skillBox"  v-for="v in skill">
           <h4>{{v.name}}</h4>
           <div class="skillLine"><div :class="['skillColor',v.css]"></div></div>
@@ -41,23 +41,23 @@
 <script>
 
 export default {
-  name: "AboutLeft",
+  name: 'AboutLeft',
   components: {
   },
-  data() {
+  data () {
     return {
-        skill:[
-            {name:'Photoshop/ illustrator/ XD',text:'設計科系出生，能夠針對不同需求使用工具。XD繪製使用者介面圖像設計、illustrator 向量圖形、Photoshop 相片後製及平面廣告。',css:''},
-            {name:'HTML5/ CSS3/ JavaScript',text:'能夠使用 HTML、CSS（RWD) 、 Javascript製作出網頁，看到特殊網站會點開發人員工具去觀摩研究。',css:'skillColor2'},
-            {name:'Axure/ Zeplin',text:'開始接觸前端後，發現單純的頁面設計是無法和工程師溝通的，運用適合的工具能夠加速工程師知道設計師的需求。',css:'skillColor3'},
-            {name:'React/Redux/ Node.js/ Vue/ Vuex',text:'了解SPA的方便性，能與後端做資料串接，理解到盡可能地精簡程式碼會讓未來的自己感謝過去的自己。',css:'skillColor4'},
-        ],
-        lang:[
-            {name:'中文能力',text:null,css:''},
-            {name:'英文能力',text:null,css:'skillColor6'},
-        ]
-    };
+      skill: [
+        { name: 'Photoshop/ illustrator/ XD', text: '設計科系出生，能夠針對不同需求使用工具。XD繪製使用者介面圖像設計、illustrator 向量圖形、Photoshop 相片後製及平面廣告。', css: '' },
+        { name: 'HTML5/ CSS3/ JavaScript', text: '能夠使用 HTML、CSS（RWD) 、 Javascript製作出網頁，看到特殊網站會點開發人員工具去觀摩研究。', css: 'skillColor2' },
+        { name: 'Axure/ Zeplin', text: '開始接觸前端後，發現單純的頁面設計是無法和工程師溝通的，運用適合的工具能夠加速工程師知道設計師的需求。', css: 'skillColor3' },
+        { name: 'React/Redux/ Node.js/ Vue/ Vuex', text: '了解SPA的方便性，能與後端做資料串接，理解到盡可能地精簡程式碼會讓未來的自己感謝過去的自己。', css: 'skillColor4' }
+      ],
+      lang: [
+        { name: '中文能力', text: null, css: '' },
+        { name: '英文能力', text: null, css: 'skillColor6' }
+      ]
+    }
   },
   methods: {}
-};
+}
 </script>

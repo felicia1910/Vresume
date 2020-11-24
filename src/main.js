@@ -15,7 +15,6 @@ import './setup/setupAxios'
 import './setup/setupFragment'
 import './setup/setupBootstrap'
 
-
 Vue.config.productionTip = false
 
 new Vue({

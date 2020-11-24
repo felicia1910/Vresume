@@ -33,6 +33,9 @@
     width: 180px;
     margin: 40px auto 30px;
 }
+.pic img{
+    width: 180px;
+}
 
 .myNameBox {
     width: 240px;
@@ -48,6 +51,12 @@
     position: absolute;
     width: 300px;
     bottom: 0;
+}
+.linkBigBox-content{
+    @include flex(center,center)
+}
+.linkBigBox-content i{
+    margin-right: 10px;
 }
 
 .linkBox {
@@ -77,6 +86,7 @@
 .rightBox {
     background-color: #333;
     color: #fff;
+    min-height: 100vh;
 }
 
 .whiteBox {
@@ -569,16 +579,12 @@ button {
     display: grid;
     grid-template-columns: repeat(5,1fr);
 }
-.clickBox{
-    border: solid 1px;
-}
 
 .pagination {
     display: flex;
     width: 100%;
     justify-content: center;
     color: #fff;
-    background-color: rgb(180, 170, 170);
 }
 
     .pagination div:hover {
@@ -593,7 +599,7 @@ button {
 }
 
 .pagination .number {
-    width: 20px;
+    width: 35px;
     margin: 5px;
     cursor: pointer;
     text-align: center;
