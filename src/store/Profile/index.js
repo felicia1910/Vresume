@@ -5,16 +5,17 @@ const state = {
     { name: '拖著拉著', summary: '自動化流程專案，使用者能將要做的事項依照自己需求指定時間和順序執行。', key: 'web', show: true, img: require('@/assets/img/pic10.png'),
      detail: {
         introduce: '從視覺、使用者體驗、前端開發都獨自一人開發的自動化流程專案，因為屬於b2b的專案，所以這邊只有自己前端開發時的版本，資料改裝假資料。',
-        titlePic:require('@/assets/img/pic1/titlePic1.png'),
+        titlePic:require('@/assets/img/pic10/titlePic1.png'),
+        url:'https://felicia1910.github.io/flowCartViewPage/',
         used: [
           { name: '視覺/介面設計: ', work: 'PhotoShop/Illustrator/XD' },
            { name: '前端程式開發: ', work: 'Html5/Css3/JavaScript/Vue/Vuex' },
             { name: '後端程式開發: ', work: '無' },
              { name: '套件: ', work: 'Bootstrap/diagram-js-minimap/jsplumb/vue-datetim' }],
         pics: [
-          { name: require('@/assets/img/pic1/smalllPic1-1.png'),big:require('@/assets/img/pic1/smalllPic1-1.png') },
-          { name: require('@/assets/img/pic1/smalllPic1-2.png'),big:require('@/assets/img/pic1/detailPic1-2.png') },
-          { name: require('@/assets/img/pic1/smalllPic1-3.png'),big:require('@/assets/img/pic1/detailPic1-3.png') 
+          { name: require('@/assets/img/pic10/smalllPic1-1.png'),big:require('@/assets/img/pic10/smalllPic1-1.png') },
+          { name: require('@/assets/img/pic10/smalllPic1-2.png'),big:require('@/assets/img/pic10/detailPic1-2.png') },
+          { name: require('@/assets/img/pic10/smalllPic1-3.png'),big:require('@/assets/img/pic10/detailPic1-3.png') 
         }],
 
     }},
@@ -36,8 +37,25 @@ const state = {
 
     }},
     //
-    { name: '一個實驗性質的網站', summary: '原本屬於公司網站，後來拿來改東改西實驗各種功能', key: 'web', show: true, img: require('@/assets/img/pic1.png'), detail: {} },
-    
+    { name: '台灣創建雲端', summary: '原本屬於公司網站，後來拿來改東改西實驗各種功能', key: 'web', show: true, img: require('@/assets/img/pic11.png'),
+      detail: {
+          introduce: '原本屬於公司網站，後來拿來改東改西實驗各種功能，被未正式上線。',
+          titlePic:require('@/assets/img/pic1/titlePic1.png'),
+          url:'https://cnfofficialuat.azurewebsites.net/',
+          used: [
+            { name: '視覺/介面設計: ', work: 'PhotoShop/Illustrator/XD' },
+            { name: '前端程式開發: ', work: 'Html5/Css3/JavaScript/Vue/Vuex' },
+            { name: '後端程式開發: ', work: '無' },
+            { name: '套件: ', work: 'Bootstrap/vue2-google-maps/vue-typer/vue-particles' }],
+          pics: [
+            { name: require('@/assets/img/pic11/smalllPic1-1.png'),big:require('@/assets/img/pic11/smalllPic1-1.png') },
+            { name: require('@/assets/img/pic11/smalllPic1-2.png'),big:require('@/assets/img/pic11/detailPic1-2.png') },
+            { name: require('@/assets/img/pic11/smalllPic1-3.png'),big:require('@/assets/img/pic11/detailPic1-3.png') 
+          }],
+        }
+
+    },
+    //
     { name: '簡單聊天室', summary: '練習nodejs，練習socketIo，試著做一個小小聊天室', key: 'web', show: true, img: require('@/assets/img/pic1.png'), detail: {} },
     
     { name: 'liteOn', summary: '用react這框架時做一個網頁', key: 'web', show: true, img: require('@/assets/img/pic1.png'),
@@ -80,7 +98,7 @@ const mutations = {
 }
 
 const getters = {
-  marketList: state => state.marketList, //取得state裡面的內容
+  profile: state => state.profile, //取得state裡面的內容
 
 }
 
