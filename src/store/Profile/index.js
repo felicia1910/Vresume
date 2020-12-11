@@ -9,42 +9,41 @@ const state = {
         url:'https://felicia1910.github.io/flowCartViewPage/',
         used: [
           { name: '視覺/介面設計: ', work: 'PhotoShop/Illustrator/XD' },
-           { name: '前端程式開發: ', work: 'Html5/Css3/JavaScript/Vue/Vuex' },
-            { name: '後端程式開發: ', work: '無' },
-             { name: '套件: ', work: 'Bootstrap/diagram-js-minimap/jsplumb/vue-datetim' }],
+          { name: '前端程式開發: ', work: 'Vue/Vuex' },
+          { name: '後端程式開發: ', work: '無' },
+          { name: '套件: ', work: 'Bootstrap/diagram-js-minimap/jsplumb/vue-datetim' }],
         pics: [
           { name: require('@/assets/img/pic10/smalllPic1-1.png'),big:require('@/assets/img/pic10/smalllPic1-1.png') },
           { name: require('@/assets/img/pic10/smalllPic1-2.png'),big:require('@/assets/img/pic10/detailPic1-2.png') },
           { name: require('@/assets/img/pic10/smalllPic1-3.png'),big:require('@/assets/img/pic10/detailPic1-3.png') 
         }],
-
+        team:null,
+        color:null,
     }},
     //
-    { name: '天哪vue3.0出了', summary: '用cdn的方式去體驗看看vue3.0到底改了哪些東西', key: 'test', show: true, img: require('@/assets/img/pic1.png'),
+    { name: '天哪vue3.0出了', summary: '用cdn的方式去體驗看看vue3.0到底改了哪些東西', key: 'test', show: true, img: require('@/assets/img/notYet.png'),
         detail: {
-          introduce: '這是一個有一天腦洞大開寫的動物的交友網站，想著讓一個人寂寞在家無法出門的寵物，有一天也可以在家交朋友!',
-          titlePic:require('@/assets/img/pic1/titlePic1.png'),
+          introduce: '公司專案之一，在還未串接api之前的時候。改用VUE3.0的主因是因為之後串接api的資料會相當龐大，vue2的dom渲染會無法負荷，所以改用vue3.0，效能改善非常多。',
+          titlePic:require('@/assets/img/pic13/titlePic1.png'),
+          url:'',
           used: [
             { name: '視覺/介面設計: ', work: 'XD' },
-            { name: '前端程式開發: ', work: 'Html5/Css3/JavaScript/Vue3.0(cdn)' },
+            { name: '前端程式開發: ', work: 'Vue3.0(cdn)' },
             { name: '後端程式開發: ', work: '無' },
             { name: '套件', work: '無' }],
-          pics: [
-            { name: require('@/assets/img/pic1/smalllPic1-1.png'),big:require('@/assets/img/pic1/smalllPic1-1.png') },
-            { name: require('@/assets/img/pic1/smalllPic1-2.png'),big:require('@/assets/img/pic1/detailPic1-2.png') },
-            { name: require('@/assets/img/pic1/smalllPic1-3.png'),big:require('@/assets/img/pic1/detailPic1-3.png') }
-          ],
-
+          pics: [],
+          team:null,
+          color:null,
     }},
     //
     { name: '台灣創建雲端', summary: '原本屬於公司網站，後來拿來改東改西實驗各種功能', key: 'web', show: true, img: require('@/assets/img/pic11.png'),
       detail: {
-          introduce: '原本屬於公司網站，後來拿來改東改西實驗各種功能，被未正式上線。',
+          introduce: '台灣創建雲端原本要上線的公司網站，從UI到切版都是由我一人完成，後來由香港團隊接手去製作官網，被未正式上線。',
           titlePic:require('@/assets/img/pic1/titlePic1.png'),
           url:'https://cnfofficialuat.azurewebsites.net/',
           used: [
             { name: '視覺/介面設計: ', work: 'PhotoShop/Illustrator/XD' },
-            { name: '前端程式開發: ', work: 'Html5/Css3/JavaScript/Vue/Vuex' },
+            { name: '前端程式開發: ', work: 'Vue/Vuex' },
             { name: '後端程式開發: ', work: '無' },
             { name: '套件: ', work: 'Bootstrap/vue2-google-maps/vue-typer/vue-particles' }],
           pics: [
@@ -52,24 +51,38 @@ const state = {
             { name: require('@/assets/img/pic11/smalllPic1-2.png'),big:require('@/assets/img/pic11/detailPic1-2.png') },
             { name: require('@/assets/img/pic11/smalllPic1-3.png'),big:require('@/assets/img/pic11/detailPic1-3.png') 
           }],
+          team:null,
+          color:null,
         }
 
     },
     //
-    { name: '簡單聊天室', summary: '練習nodejs，練習socketIo，試著做一個小小聊天室', key: 'web', show: true, img: require('@/assets/img/pic1.png'), detail: {} },
-    
-    { name: 'liteOn', summary: '用react這框架時做一個網頁', key: 'web', show: true, img: require('@/assets/img/pic1.png'),
+    // { name: '簡單聊天室', summary: '練習nodejs，練習socketIo，試著做一個小小聊天室', key: 'web', show: true, img: require('@/assets/img/pic1.png'),
+    //  detail: {
+
+    //  } 
+    // },
+    //
+    { name: 'liteOn', summary: '用react這框架時做一個網頁', key: 'web', show: true, img: require('@/assets/img/pic12.png'),
      detail:{
-        introduce: '這是一個有一天腦洞大開寫的動物的交友網站，想著讓一個人寂寞在家無法出門的寵物，有一天也可以在家交朋友!',
-        titlePic:require('@/assets/img/pic1/titlePic1.png'),
-        used: [{ name: '視覺/介面設計: ', work: 'PhotoShop/Illustrator' }, { name: '前端程式開發: ', work: 'Html5/Css3/JavaScript' }, { name: '後端程式開發: ', work: '無' }, { name: '套件', work: 'Bootstrap/Lightbox' }],
-        pics: [{ name: require('@/assets/img/pic1/smalllPic1-1.png'),big:require('@/assets/img/pic1/smalllPic1-1.png') }, { name: require('@/assets/img/pic1/smalllPic1-2.png'),big:require('@/assets/img/pic1/detailPic1-2.png') }, { name: require('@/assets/img/pic1/smalllPic1-3.png'),big:require('@/assets/img/pic1/detailPic1-3.png') }],
+        introduce: '',
+        titlePic:require('@/assets/img/pic12/titlePic1.png'),
+        url:'https://felicia1910.github.io/liteon-view/',
+        used: [
+          { name: '視覺/介面設計: ', work: 'PhotoShop/Illustrator' },
+          { name: '前端程式開發: ', work: 'Html5/Css3/JavaScript' },
+          { name: '後端程式開發: ', work: '無' },
+          { name: '套件', work: 'Bootstrap/Lightbox' }
+        ],
+        pics: [
+          { name: require('@/assets/img/pic12/smalllPic1-1.png'),big:require('@/assets/img/pic12/smalllPic1-1.png') },
+           { name: require('@/assets/img/pic12/smalllPic1-2.png'),big:require('@/assets/img/pic12/detailPic1-2.png') },
+            { name: require('@/assets/img/pic12/smalllPic1-3.png'),big:require('@/assets/img/pic12/detailPic1-3.png') }
+        ],
 
     }},
-    { name: '動物SINGLE50',
-      summary: '一個人寂寞在家無法出門的寵物，是該讓他們在家也可以交朋友!',
-      key: 'web',
-      show: true,
+    //
+    { name: '動物SINGLE50',summary: '一個人寂寞在家無法出門的寵物，是該讓他們在家也可以交朋友!',key: 'web',show: true,
       img: require('@/assets/img/pic1.png'),
       detail: {
         introduce: '這是一個有一天腦洞大開寫的動物的交友網站，想著讓一個人寂寞在家無法出門的寵物，有一天也可以在家交朋友!',
