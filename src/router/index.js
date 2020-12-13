@@ -4,8 +4,14 @@ import Views from '@/views'
 
 Vue.use(Router)
 
+const originalPush = Router.prototype.push;
+Router.prototype.push = function push(location, onResolve, onReject) {
+  if (onResolve || onReject) return originalPush.call(this, location, onResolve, onReject);
+  return originalPush.call(this, location).catch((err) => err);
+}
+
 export default new Router({
-  mode: 'history',
+  //mode: 'history',
   base: process.env.BASE_URL,
   scrollBehavior (to, from, savedPosition) {
     return { x: 0, y: 0 }
@@ -29,7 +35,7 @@ export default new Router({
           component: () => import(/* webpackChunkName: "Home" */ '@/views/Profile')
         },
         {
-          path: '/profile/profile:id',
+          path: '/profile/:id',
           name: 'page',
           component: () => import(/* webpackChunkName: "Home" */ '@/views/ProfilePage')
         }

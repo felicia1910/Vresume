@@ -41,7 +41,7 @@ const state = {
     { name: '台灣創建雲端', summary: '原本屬於公司網站，後來拿來改東改西實驗各種功能', key: 'web', show: true, img: require('@/assets/img/pic11.png'),
       detail: {
           introduce: '台灣創建雲端原本要上線的公司網站，從UI到切版都是由我一人完成，後來由香港團隊接手去製作官網，被未正式上線。',
-          titlePic:require('@/assets/img/pic1/titlePic1.png'),
+          titlePic:require('@/assets/img/pic11/titlePic1.png'),
           url:'https://cnfofficialuat.azurewebsites.net/',
           gitHub:null,
           used: [
@@ -50,7 +50,7 @@ const state = {
             { name: '後端程式開發: ', work: '無' },
             { name: '套件: ', work: 'Bootstrap/vue2-google-maps/vue-typer/vue-particles' }],
           pics: [
-            { name: require('@/assets/img/pic11/smalllPic1-1.png'),big:require('@/assets/img/pic11/smalllPic1-1.png') },
+            { name: require('@/assets/img/pic11/smalllPic1-1.png'),big:require('@/assets/img/pic11/detailPic1-1.png') },
             { name: require('@/assets/img/pic11/smalllPic1-2.png'),big:require('@/assets/img/pic11/detailPic1-2.png') },
             { name: require('@/assets/img/pic11/smalllPic1-3.png'),big:require('@/assets/img/pic11/detailPic1-3.png') 
           }],
@@ -90,7 +90,7 @@ const state = {
           { name: '套件: ', work: 'Bootstrap/Lightbox' }
         ],
         pics: [
-          { name: require('@/assets/img/pic12/smalllPic1-1.png'),big:require('@/assets/img/pic12/smalllPic1-1.png') },
+          { name: require('@/assets/img/pic12/smalllPic1-1.png'),big:require('@/assets/img/pic12/detailPic1-1.png') },
            { name: require('@/assets/img/pic12/smalllPic1-2.png'),big:require('@/assets/img/pic12/detailPic1-2.png') },
             { name: require('@/assets/img/pic12/smalllPic1-3.png'),big:require('@/assets/img/pic12/detailPic1-3.png') }
         ],
@@ -130,12 +130,12 @@ const state = {
           { name: '後端程式開發: ', work: 'PHP/MySQL' },
         ],
         pics: [
-          { name: require('@/assets/img/pic2/smalllPic1-1.png'),big:require('@/assets/img/pic2/smalllPic1-1.png') },
-          { name: require('@/assets/img/pic2/smalllPic1-2.png'),big:require('@/assets/img/pic2/detailPic1-2.png') },
-          { name: require('@/assets/img/pic2/smalllPic1-3.png'),big:require('@/assets/img/pic2/detailPic1-3.png') },
-          { name: require('@/assets/img/pic2/smalllPic1-4.png'),big:require('@/assets/img/pic2/smalllPic1-4.png') },
-          { name: require('@/assets/img/pic2/smalllPic1-5.png'),big:require('@/assets/img/pic2/detailPic1-5.png') },
-          { name: require('@/assets/img/pic2/smalllPic1-6.png'),big:require('@/assets/img/pic1/detailPic1-6.png') },
+          { name: require('@/assets/img/pic2/smalllPic2-1.png'),big:require('@/assets/img/pic2/smalllPic2-1.png') },
+          { name: require('@/assets/img/pic2/smalllPic2-2.png'),big:require('@/assets/img/pic2/detailPic2-2.png') },
+          { name: require('@/assets/img/pic2/smalllPic2-3.png'),big:require('@/assets/img/pic2/detailPic2-3.png') },
+          { name: require('@/assets/img/pic2/smalllPic2-4.png'),big:require('@/assets/img/pic2/smalllPic2-4.png') },
+          { name: require('@/assets/img/pic2/smalllPic2-5.png'),big:require('@/assets/img/pic2/detailPic2-5.png') },
+          { name: require('@/assets/img/pic2/smalllPic2-6.png'),big:require('@/assets/img/pic2/detailPic2-6.png') },
         ],
         team:{title:'團隊負責事項',
           li:[
@@ -143,13 +143,13 @@ const state = {
             { name: '前端程式開發: ', work: ' 首頁/關於知音/玩玩知音-客製音樂鈴頁面與功能製作/銷售通路/聯絡我們' },
             { name: '後端程式開發: ', work: '後端資料庫及API建置' },
           ]},
-        color:{title:'顏色配置',pic:require('@/assets/img/pic2/color.png'),text:'>色彩可以引發情緒、產生聯想，我們網站的色彩主要以這四種顏色為主，依序是為襯托其他顏色的低調白、抹茶綠、寧靜灰與最具代表此網站的主體色-小丑魚橘。 選擇小丑魚橘是以採用知音文創最具商標性的木製商品來當原型，接近木製質感但又不失可愛感，再以抹茶綠這個與小丑魚橘相差兩個色階的顏色當主配色去拉扯小丑魚橘的熱度，讓整個網站充滿趣味但不至於讓人疲乏。'},
+        color:{title:'顏色配置',pic:require('@/assets/img/pic2/color.png'),text:'色彩可以引發情緒、產生聯想，我們網站的色彩主要以這四種顏色為主，依序是為襯托其他顏色的低調白、抹茶綠、寧靜灰與最具代表此網站的主體色-小丑魚橘。 選擇小丑魚橘是以採用知音文創最具商標性的木製商品來當原型，接近木製質感但又不失可愛感，再以抹茶綠這個與小丑魚橘相差兩個色階的顏色當主配色去拉扯小丑魚橘的熱度，讓整個網站充滿趣味但不至於讓人疲乏。'},
       }
     },
     { name: '專業經理人', summary: '實際臨摹一個網站!', key: 'cob', show: true, img: require('@/assets/img/pic3.png'),
      detail: {
         introduce: '從臨摹他人的網站開始踏進前端的領域。',
-        titlePic:require('@/assets/img/pic3/titlePic.png'),
+        titlePic:require('@/assets/img/pic3/titlePic3.png'),
         url:'https://felicia1910.github.io/imitateSmallWeb/',
         gitHub:null,
         used: [
@@ -164,7 +164,7 @@ const state = {
     { name: 'GravityDaze', summary: '實際臨摹一個網站!', key: 'cob', show: true, img: require('@/assets/img/pic4.png'),
       detail: {
         introduce: '從臨摹他人的網站開始踏進前端的領域。',
-        titlePic:require('@/assets/img/pic4/titlePic.png'),
+        titlePic:require('@/assets/img/pic4/titlePic4.png'),
         url:'https://felicia1910.github.io/ps4girl/',
         gitHub:null,
         used: [

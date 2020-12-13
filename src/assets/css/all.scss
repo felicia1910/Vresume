@@ -43,20 +43,23 @@
 }
 
 /* 聯絡資訊 */
-
-
+.link-box-icon{
+    margin-top: 10px;
+}
+.link-box-icon a{
+    color: #fff;
+    font-size: 20px;
+    margin: 8px;
+}
+.link-box-icon a:hover{
+    color: #eee;
+}
 /* 選擇區塊 */
 
 .linkBigBox {
     position: absolute;
     width: 300px;
     bottom: 0;
-}
-.linkBigBox-content{
-    @include flex(center,center)
-}
-.linkBigBox-content i{
-    margin-right: 10px;
 }
 
 .linkBox {
@@ -74,7 +77,9 @@
 .linkBox span {
     font-size: 14px;
 }
-
+.linkBox-border{
+    border-bottom: solid 3px #fff; 
+}
 /* hover */
 
 .linkBox:hover {
@@ -101,6 +106,7 @@
 
 .left_right {
     display: flex;
+    font-size: 14px;
 }
 
 /* 左邊切版 */
@@ -132,6 +138,9 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+.mySkill p{
+    padding: 20px;
+}
 .no-grid{
     display: initial;
 }
@@ -144,7 +153,10 @@
 .skillBox p {
     animation: WhiteBox 1.8s 1;
 }
-
+.skillBox h4{
+    font-size: 16px;
+    font-weight: bold;
+}
 /* 能力條 */
 
 .skillLine {
@@ -157,38 +169,26 @@
 
 .skillColor {
     border-radius: 10px;
-    background: rgb(232, 177, 122);
-    /* Old browsers */
-    background: -moz-linear-gradient(left, rgba(232, 177, 122, 1) 0%, rgba(252, 123, 123, 1) 45%, rgba(226, 102, 96, 1) 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(232, 177, 122, 1) 0%, rgba(252, 123, 123, 1) 45%, rgba(226, 102, 96, 1) 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(232, 177, 122, 1) 0%, rgba(252, 123, 123, 1) 45%, rgba(226, 102, 96, 1) 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    width: 0;
-    height: 15px;
+    @include gradualRed;
+    @include size(0,15px);
     animation: ani1 1.5s 1;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
+    @include aniStyle;
 }
 
 .skillColor2,
 .skillColor3 {
     animation: ani2 1.5s 1;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
+    @include aniStyle;
 }
 
 .skillColor4{
     animation: ani4 1.5s 1;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
+    @include aniStyle;
 }
 
 .skillColor6{
     animation: ani3 1.5s 1;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
+    @include aniStyle;
 }
 
 
@@ -252,28 +252,23 @@
 }
 
 .workBox {
-    padding: 10px 0 10px 30px;
+    display: flex;
+    align-items: center;
 }
-
+.company-samll-box{
+    margin-left: 20px;
+    width: calc(100% - 30px);
+}
 .work {
     margin: 10px 0;
-    font-size: 14px;
     line-height: 26px;
 }
 
 .colorBox {
     width: 8px;
     height: 60px;
-    position: absolute;
     background: rgb(237, 208, 163);
-    /* Old browsers */
-    background: -moz-linear-gradient(-45deg, rgba(237, 208, 163, 1) 0%, rgba(254, 144, 144, 1) 45%, rgba(226, 102, 96, 1) 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgba(237, 208, 163, 1) 0%, rgba(254, 144, 144, 1) 45%, rgba(226, 102, 96, 1) 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgba(237, 208, 163, 1) 0%, rgba(254, 144, 144, 1) 45%, rgba(226, 102, 96, 1) 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    transform: translateX(-350%)translateY(20%);
+    @include gradualRed;
 }
 
 .colorBox3 {
@@ -387,7 +382,7 @@ button {
 
 /*藏起來的*/
 
-.clickBoxNav {
+.fa-bars {
     display: none;
 }
 
@@ -448,70 +443,37 @@ button {
     }
 }
 
-@media screen and (max-width: 1280px) {
-    body {
+@media screen and (max-width: 1450px) {
+    .body {
         grid-template-columns: 1fr;
     }
-    .leftBox {
-        width: 0;
-    }
-    .clickBoxNav {
+
+    .fa-bars {
         display: block;
         position: fixed;
-        width: 60px;
-        height: 60px;
-        left: 10px;
+        font-size: 60px;
+        color: #fff;
+        left: 20px;
         top: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
         cursor: pointer;
         transition: .8s;
         z-index: 10;
     }
-    .threeLine {
+    .leftBox{
         width: 100%;
-        height: 8px;
-        margin: 6px 0;
-        background-color: #fff;
+        animation: LeftBox .3s 1;
     }
-    .leftBox.leftBoxClick {
+    .linkBigBox{
         width: 100%;
+        position: relative;
+        margin-top: 10px;
     }
-    .linkBigBox.linkBigBoxClick {
-        right: 0;
-        top: 300px;
-    }
-    .myNameBox.myNameBoxClick {}
-}
-
-@media screen and (max-width: 1024px) {
-    .redText,
-    .birthday,
-    .introduce {
-        display: none;
-    }
-    .linkBigBox {
-        width: 100%;
-    }
-    .contact,
-    .tel,
-    .mail {
-        margin: auto;
-        text-align: center;
-    }
-    .contact,.mail,.contact p{
-        display: inline-block;
-    }
-    .tel {
-        margin-bottom: 10px;
-    }
-    .tel span,.mail{
-        margin-left:0px; 
+    .linkBox{
+        padding: 25px;
     }
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 1200px) {
     .left_right {
         display: block;
     }
@@ -523,6 +485,7 @@ button {
         border: none;
     }
 }
+
 
 @media screen and (max-width: 600px) {
     .whiteBox {

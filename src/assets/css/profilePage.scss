@@ -100,7 +100,7 @@
 .pic-small{
     border-radius: 10px;
     border: solid rgb(43, 42, 42) 8px;
-    margin: 10px 15px;
+    margin: 10px auto;
     @include size(95%,250px);
     @include pic-center;
     cursor: pointer;
@@ -155,11 +155,17 @@
 }
 
 @media screen and (max-width: 875px) {
+    .pigPic{
+        width: calc(90% - 40px );
+    }
+    .upBox {
+        margin-left: 30px;
+    }
     .smallTextBox {
         flex-wrap: wrap;
     }
     .btn,.watchBtn  {
-        width: 90%;
+        width: 100%;
         text-align: center;
         margin: 20px auto;
     }
@@ -177,6 +183,10 @@
         pointer-events: none;
         cursor: default;
     }
+    .detailPicBox-box{
+        display: flex;
+        justify-content: center;
+    }
     .whiteBox{
         padding: 10px;
         border: none;
@@ -186,8 +196,11 @@
 
 @media screen and (max-width: 600px) {
     .pigPic{
-        width: 100%;
+        width: 94%;
         height: 300px;
+    }
+    .upBox {
+        margin-left: 10px;
     }
     .textBox{
         width: 100%;

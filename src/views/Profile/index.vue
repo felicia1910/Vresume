@@ -1,13 +1,17 @@
 <template>
     <div>
+      <dropdown :data="turnDropData" @change="changHandler"></dropdown>
       <!-- 篩選按鈕 -->
-      <div class="longColorLine"></div>
-      <div class="filterBox filterBoxClick">
-        <div :class="['clickBox',!v.click &&'op-0']" v-for="(v,k) in filter" :key="k"></div>
+      <div class="longColorLine-box">
+        <div class="longColorLine"></div>
+        <div class="filterBox filterBoxClick">
+          <div :class="['clickBox',!v.click &&'op-0']" v-for="(v,k) in filter" :key="k"></div>
+        </div>
+        <div class="filterBox">
+          <div :class="['filterItem',,v.click &&'filterItem-click']" v-for="(v,k) in filter" :key="k" @click="filterFun(v,k)">{{v.name}}</div>
+        </div>
       </div>
-      <div class="filterBox">
-        <div :class="['filterItem',,v.click &&'filterItem-click']" v-for="(v,k) in filter" :key="k" @click="filterFun(v,k)">{{v.name}}</div>
-      </div>
+
       <!-- 被顯示 -->
       <div class="allItemBox">
         <div class="ItemBox" v-for="(v,k) in datas.slice(pageStart, pageStart + perPage)" :key="k" v-show="v.show">
@@ -27,9 +31,11 @@
 
 <script>
 import { mapGetters, mapActions, mapMutations } from 'vuex'
+import dropdown from '@/components/Dropdown/index'
 export default {
   name: 'profile',
   components: {
+    dropdown
   },
   data () {
     return {
@@ -40,6 +46,7 @@ export default {
         { name: '功能實作', click: false, key: 'test' },
         { name: '平面設計', click: false, key: 'ui' }
       ],
+      allWorkTmp:null,
       datas: [], // 分頁篩選過
       offset: 4, // 跳多少
       firstPage: 1,
@@ -47,7 +54,8 @@ export default {
       totalPage: 0,
       nowPage: 1, // 現在第幾頁
       perPage: 10, // 一頁幾個
-      canLook: true
+      canLook: true,
+      turnDropData:[]
     }
   },
   computed: {
@@ -66,12 +74,20 @@ export default {
     }
   },
   async mounted () {
+    this.allWorkTmp=this.allWork
     await this.start()
   },
   methods: {
     start () {
-      this.datas = this.allWork.filter(e => { return e.show })
+      this.datas = this.allWorkTmp.filter(e => { return e.show })
+      this.turnDropData=this.filter.map((e,k)=>{
+        return{...e,text:e.name,value:k}
+      })
       this.setInitPage()
+    },
+    changHandler(val){
+      console.log(val)
+      this.filterFun(val,val.value)
     },
     // 分頁一開始設定
     setInitPage () {
@@ -110,14 +126,13 @@ export default {
       this.filter = this.filter.map((e, k) => {
         return { ...e, click: k == key? true:false  }
       })
-      this.allWork = this.allWork.map((e, k) => {
+      this.allWorkTmp = this.allWorkTmp.map((e, k) => {
         return {
           ...e,
           show: (val.key === 'all') ? true : (e.key === val.key)
         }
       })
-      console.log(this.filter)
-      this.$forceUpdate()
+
       this.start(val)
     },
     routeFun (val) {

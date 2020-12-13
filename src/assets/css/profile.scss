@@ -104,10 +104,41 @@
 .itemPic img:hover {
     filter: brightness(.5);
 }
-
-@media screen and (max-width: 1024px) {
+//drop
+.drop{
+    display: flex;
+    align-items:center;
+    margin: 30px 20px;
+    display: none;
+}
+.dropdown{
+    position: relative;
+}
+.drop label{
+    margin-right: 20px;
+}
+.dropdown-input{
+    background-color: rgb(119, 119, 119);
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.dropdown i{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.dropdown-content {
+    position: absolute;
+    background: #fff;
+    border-radius: 5px;
+    width: 195px;
+}
+@media screen and (max-width: 1200px) {
     .allItemBox {
         grid-template-columns: 1fr;
+        padding: 0 20px;
     }
     .ItemBox {
         margin: 20px auto;
@@ -118,7 +149,10 @@
 }
 
 @media screen and (max-width: 600px) {
-    .longColorLine,.filterBoxClick{
+    .drop{
+        display: flex;
+    }
+    .longColorLine-box{
         display: none;
     }
     .filterItem{

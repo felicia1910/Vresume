@@ -29,14 +29,7 @@ export default {
   },
   methods: {
     nav(val) {
-      if(this.id!==val.click){
-        this.id = val.click;
-        if(val.click){
-          this.$router.push({ name: 'home' })
-        }else{
-          this.$router.push({ name: 'profile' })
-        }
-      }
+      this.$router.push({ name: val })
     }
   }
 };

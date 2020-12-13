@@ -29,6 +29,10 @@ $color_dark_red:#a35050 ;
     object-fit: cover;
     object-position: center center;
 }
+@mixin  aniStyle {
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
 .t-red{
     color: $color_red;
 }
