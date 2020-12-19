@@ -35,7 +35,7 @@ export default {
       nameDetail: [
         { css: 't-red', text: 'Front-End Developing Learner' },
         { css: '', text: '1993/03/19 Taipei, Taiwan' },
-        { css: '', text: '從平面影像設計到網頁設計再到 網路前端製作，喜歡觀察人、喜 歡嘗試不同的東西，偶而繪製些 小插畫，畫些小故事。' }
+        { css: '', text: '從平面影像設計到網頁設計再到網路前端製作，喜歡觀察人、喜歡嘗試不同的東西，偶而繪製些小插畫，畫些小故事。' }
       ],
       content: [
         { icon: 'far fa-envelope', text: 'mailto:flinder410010@gmail.com' },
@@ -73,7 +73,7 @@ export default {
   methods: {
     navFun (val) {
       this.$emit('nav', val.name)
-      this.rwdShow=windowWidth<=1450?false:his.rwdShow
+      this.rwdShow=this.windowWidth<=1450?false:this.rwdShow
     },
     openrwdShow(){
       this.rwdShow=(this.rwdShow)?false:true

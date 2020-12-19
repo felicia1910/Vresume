@@ -11,10 +11,12 @@
     <div class="textBox">
       <div class="smallTextBox">
         <div class="titleText">{{title}}</div>
-        <a :href="data.url" class="btn" target="_blank" v-if="data.url">
-          <div class="watchBtn">點我到連結</div>
-        </a>
-        <div class="watchBtn" v-else>施工中</div>
+        <div v-if="data.url!=='no'">
+          <a :href="data.url" class="btn" target="_blank" v-if="data.url">
+            <div class="watchBtn">點我到連結</div>
+          </a>
+          <div class="watchBtn" v-else>施工中</div>
+        </div>
       </div>
 
       <div class="detailText">
@@ -22,14 +24,22 @@
 
         <div v-if="data.color">
           <div class="useTitle">顏色配置</div>
-          <div class="use useColor"><img :src="data.color.pic" alt="顏色盒"></div>
-          <div class="use useText">{{data.color.text}}</div>
+          <div class="use useColor" v-if="data.color.pic.length>0">
+            <div v-for="v in data.color.pic" :style="v.style"></div>
+          </div>
+          <div :class="['use useText',data.color.pic.length==0 &&'useText-no-color']">{{data.color.text}}</div>
         </div>
         
         <div class="useTitle">使用技術</div>
         <div class="use">
           <ul>
-            <li v-for="(v,k) in data.used" :key="k">{{v.name}}{{v.work}}</li>
+            <li v-for="(v,k) in data.used" :key="k">
+              <a :href="v.a" target="_blank" v-if="v.a">{{v.name}}<span>{{v.work}}</span></a>
+              <div v-else>{{v.name}}{{v.work}}</div>
+            </li>
+            <li v-if="data.gitHub">
+              <a :href="data.gitHub" target="_blank">github: <span>點我到連結</span></a>
+            </li>
           </ul>
         </div>
 
@@ -44,7 +54,7 @@
 
       </div>
 
-      <div class="detailPicBox">
+      <div class="detailPicBox" v-if="pics.length > 0">
         <div class="detailPicBox-box" v-for="(v,k) in pics" :key="k">
           <img class="pic-small" :src="v.name" alt="預覽圖" @click="openBigPic(v,k)" />
           <div class="picBoxForDetail" v-show="v.check">
@@ -79,9 +89,9 @@ export default {
         this.data = this.$route.params.detail;
         this.title = this.$route.params.name;
         console.log(this.$route.params);
-        this.pics = this.$route.params.detail.pics.map((e, k) => {
+        this.pics = this.$route.params.detail.pics?this.$route.params.detail.pics.map((e, k) => {
           return { ...e, check: false };
-        });
+        }):[]
       }
     },
     openBigPic(val, key) {

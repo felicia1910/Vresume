@@ -5,7 +5,7 @@
       <nav-box @nav="nav"></nav-box>
       <!-- //右邊 -->
       <div class="rightBox">
-        <div class="p">建議使用 Chrome 瀏覽器 1450 x 720以上 ，以確保最佳瀏覽效果</div>
+        <!-- <div class="p">建議使用 Chrome 瀏覽器 1450 x 720以上 ，以確保最佳瀏覽效果</div> -->
         <div class="whiteBox">
           <router-view />
         </div>
