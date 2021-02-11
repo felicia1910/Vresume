@@ -1,10 +1,11 @@
 <template>
     <div>
+      
         <i class="fas fa-bars" @click="openrwdShow"></i>
         <div class="leftBox" v-if="rwdShow">
             <div class="pic"><img :src="require('@/assets/img/ico.png')" alt="大頭貼"></div>
             <div class="myNameBox">
-                <div class="name">{{name.ch}}<span>{{name.en}}</span></div>
+                <div class="name">{{name.ch}}<br>{{name.en}}</div>
                 <div :class="['name-detail',v.css]" v-for="v in nameDetail">{{v.text}}</div>
                 <div class="link-box-icon">
                   <a :href="v.text" :class="['linkBigBox-content']" target="_blank" v-for="v in content">
@@ -31,12 +32,6 @@ export default {
   },
   data () {
     return {
-      name: { ch: '陳欣詩', en: 'Shin Shri Chen' },
-      nameDetail: [
-        { css: 't-red', text: 'Front-End Developing Learner' },
-        { css: '', text: '1993/03/19 Taipei, Taiwan' },
-        { css: '', text: '從平面影像設計到網頁設計再到網路前端製作，喜歡觀察人、喜歡嘗試不同的東西，偶而繪製些小插畫，畫些小故事。' }
-      ],
       content: [
         { icon: 'far fa-envelope', text: 'mailto:flinder410010@gmail.com' },
         { icon: 'fab fa-github', text: 'https://github.com/felicia1910' }
@@ -54,6 +49,18 @@ export default {
     for (let i = 0; i < 3; i++) {
       this.navHan[i] = i
     }
+  },
+  computed:{
+      nameDetail(){
+        return[
+          { css: 't-red', text: 'Front-end Engineer' },
+          { css: '', text: '1993/03/19 Taipei, Taiwan' },
+          { css: '', text:  this.$t('description') }
+        ]
+      },
+      name(){
+        return { ch: this.$t('name'), en: 'Shin Shri Chen' }
+      }
   },
   mounted(){
     this.watchWidth()

@@ -1,6 +1,6 @@
 <template>
   <div class="drop">
-    <label class="labelStyle">分類:</label>
+    <label class="labelStyle">{{$t('category')}}:</label>
     <div class="dropdown">
       <input
         class="dropdown-input"

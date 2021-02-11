@@ -1,5 +1,20 @@
 @import "./style.scss";
 
+.label-box{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 20px 0 0;
+    font-weight: bold;
+}
+.label-box label{
+    cursor: pointer;
+    padding: 0 10px;
+    margin: 0 5px;
+}
+.label-left{
+    border-left: solid 1px #eee;
+}
+
 .longColorLine {
     width: 95%;
     height: 6px;

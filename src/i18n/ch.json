@@ -1,0 +1,682 @@
+{
+    "name": "陳欣詩",
+    "alert":"建議使用 Chrome 瀏覽器 1450 x 720以上 ，以確保最佳瀏覽效果",
+    "description": "從平面影像設計到網頁設計再到網路前端製作，喜歡觀察人、喜歡嘗試不同的東西，偶而繪製些小插畫，畫些小故事。",
+    "skill":{
+        "ui":"設計科系出生，能夠針對不同需求使用工具。XD繪製使用者介面圖像設計、illustrator 向量圖形、Photoshop 相片後製及平面廣告。",
+        "dom":"能夠使用 HTML、CSS（RWD) 、 Javascript製作出網頁，看到特殊網站會點開發人員工具去觀摩研究。",
+        "ux":"開始接觸前端後，發現單純的頁面設計是無法和工程師溝通的，運用適合的工具能夠加速工程師知道設計師的需求。",
+        "js":"了解SPA的方便性，能與後端做資料串接，理解到盡可能地精簡程式碼會讓未來的自己感謝過去的自己。"},
+    "lang":{
+        "ch":"中文能力",
+        "en":"英文能力"
+    },
+    "scholl":{
+        "name":"東華大學",
+        "major":"藝術與設計學系",
+        "high":"學士",
+        "miror":"副修小學教育學程"
+    },
+    "introduction":"在轉職成為前端工程師之前是個平面設計師，擔任期間覺得純粹的平面設計師對我來說挑戰性不夠，所以在接觸到些許程式語言後決定轉職，在2018年7月到資策會接受完整的課程去學習。在這學習過程中，深覺不管是UI/UX還有前端的開發過程都是充滿苦惱，但也帶來相當大的樂趣，可以研究的範圍很廣很深，也不斷的在更新，期許未來在工作上可以不斷的精進自己，與他人的討論合作上迸出新想法，逐步解決問題。<br /><br />在資策會上了半年課，結業同時很幸運的直接進到創建雲端公司，因為過往主要重心都在後端，所以我成為這間公司第一個也是唯一一個前端工程師，除了負責設計UI介面之外，UX流程也是和同事討論過後獨自完成，再來切版和與各個後端溝通並做資料串接也是我在這間公司的負責項目。並且因為公司不會限制太多，讓我不管是VUE還是REACT都能有機會在專案中自由選擇使用。累積實戰經驗很快也收穫很多。<br/><br />在進到這行的同時也意識到這行的技術跑得相當快，所以每年我也都會安排讀書計畫，近期學習的項目是vue3.0，而在之後也安排了要學習nodejs的後端技術、nuxt、自動化前端測試的讀書計畫，雖然一直追著技術跑有些辛苦，但卻也享受著這份學習後帶來的成就感，我會繼續努力跑下去的。",
+    "work":[
+        {"name":"千康股份有限公司,","text":"擔任短期的美編設計(工讀)"},
+        {"name":"新埔國民小學,","text":"擔任各科代課老師、課後班老師"},
+        {"name":"歡樂購股份有限公司,","text":"在電商平台擔任美編設計，為大量商品後製和設計banner等，期間因為上 架需要接觸後台而有接觸程式語言， 對程式語言產生興趣，自學了半年後與同事聊過許久後決定到資策會學習更完整的前端技術。"},
+        {"name":"創建雲端股份有限公司,","text":"在與微軟合作的新創公司擔任前端工程師，主要使用前端框架vue.js，串聯後端做好的api，做到前後端分離。期間因為公司需求的緣故，也有使用AdobeXD製作app使用者頁介面。"}
+    ],
+    "category":"類別",
+    "categoryList":[
+        {"name":"全部"},
+        {"name":"網頁設計"},
+        {"name":"臨摹網站"},
+        {"name":"功能實作"},
+        {"name":"平面設計"}
+    ],
+    "up":"上一頁",
+    "down":"下一頁",
+    "imgTitle":"作品主圖",
+    "clickUrl":"點我到連結",
+    "workNotYet":"施工中",
+    "colorTitle":"顏色配置",
+    "technologyTitle":"使用技術",
+    "teamTitle":"團隊負責事項",
+    "imgWatch":"預覽圖",
+    "imgDetail":"詳細圖",
+    "profile": [
+        {
+            "name": "拖著拉著",
+            "summary": "自動化流程專案，使用者能將要做的事項依照自己需求指定時間和順序執行。",
+            "key": "web",
+            "show": true,
+            "img": "img/pic10.8bd93edb.png",
+            "detail": {
+                "introduce": "從視覺、使用者體驗、前端開發都獨自一人開發的自動化流程專案，因為屬於b2b的專案，所以這邊只有自己前端開發時的版本，資料改裝假資料。",
+                "titlePic": "img/titlePic1.e75b24bf.png",
+                "url": "https://felicia1910.github.io/flowCartViewPage/",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "視覺/介面設計: ",
+                        "work": "PhotoShop/Illustrator/XD"
+                    },
+                    {
+                        "name": "前端程式開發: ",
+                        "work": "Vue/Vuex/SCSS"
+                    },
+                    {
+                        "name": "後端程式開發: ",
+                        "work": "無"
+                    },
+                    {
+                        "name": "套件: ",
+                        "work": "Bootstrap/diagram-js-minimap/jsplumb/vue-datetim"
+                    }
+                ],
+                "pics": [
+                    {
+                        "name": "img/smalllPic1-1.209d8f24.png",
+                        "big": "img/detailPic1-1.a0bb74ae.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-2.70d868a9.png",
+                        "big": "img/detailPic1-2.8bfc2fcd.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-3.9b2542e7.png",
+                        "big": "img/detailPic1-3.a8144805.png"
+                    }
+                ],
+                "team": null,
+                "color": {
+                    "title": "顏色配置",
+                    "pic": [
+                        {
+                            "style": "background:#ffffff"
+                        },
+                        {
+                            "style": "background:#084172"
+                        },
+                        {
+                            "style": "background:#c9dbec"
+                        }
+                    ],
+                    "text": "以海軍藍為主色，因為是給使用者在後台操作使用，所以選擇以少有人反感，且具有知性讓人平靜的藍，配上百搭的純白，元件則是選擇高彩度高亮度的各種對比色，讓使用者能夠直覺的看懂並操作。"
+                }
+            }
+        },
+        {
+            "name": "天哪vue3.0出了",
+            "summary": "用cdn的方式去體驗看看vue3.0到底改了哪些東西",
+            "key": "test",
+            "show": true,
+            "img": "img/pic13.7664551f.png",
+            "detail": {
+                "introduce": "公司專案之一，在還未串接api之前的時候。改用VUE3.0的主因是因為之後串接api的資料會相當龐大，vue2的dom渲染會無法負荷，所以改用vue3.0，效能改善非常多。",
+                "titlePic": "img/pic13.7664551f.png",
+                "url": "https://felicia1910.github.io/company-samll-demo-vue3/",
+                "gitHub": "https://github.com/felicia1910/company-samll-demo-vue3/tree/gh-pages",
+                "used": [
+                    {
+                        "name": "視覺/介面設計: ",
+                        "work": "XD"
+                    },
+                    {
+                        "name": "前端程式開發: ",
+                        "work": "Vue3.0(cdn)"
+                    },
+                    {
+                        "name": "後端程式開發: ",
+                        "work": "無"
+                    },
+                    {
+                        "name": "套件: ",
+                        "work": "無"
+                    }
+                ],
+                "pics": [],
+                "team": null,
+                "color": {
+                    "title": "顏色配置",
+                    "pic": [],
+                    "text": "因為要嵌入在微軟crm當中，所以配合微軟crm的頁面去做簡單設計。"
+                }
+            }
+        },
+        {
+            "name": "台灣創建雲端",
+            "summary": "原本屬於公司網站，後來拿來改東改西實驗各種功能",
+            "key": "web",
+            "show": true,
+            "img": "img/pic11.137799f1.png",
+            "detail": {
+                "introduce": "台灣創建雲端原本要上線的公司網站，從UI到切版都是由我一人完成，後來由香港團隊接手去製作官網，被未正式上線。",
+                "titlePic": "img/titlePic1.f645a506.png",
+                "url": "https://cnfofficialuat.azurewebsites.net/",
+                "gitHub": "https://github.com/felicia1910/cloudCompanyDemo",
+                "used": [
+                    {
+                        "name": "視覺/介面設計: ",
+                        "work": "PhotoShop/Illustrator/XD"
+                    },
+                    {
+                        "name": "前端程式開發: ",
+                        "work": "Vue/Vuex/SCSS"
+                    },
+                    {
+                        "name": "後端程式開發: ",
+                        "work": "無"
+                    },
+                    {
+                        "name": "套件: ",
+                        "work": "Bootstrap/vue2-google-maps/vue-typer/vue-particles"
+                    }
+                ],
+                "pics": [
+                    {
+                        "name": "img/smalllPic1-1.fd1c8348.png",
+                        "big": "img/detailPic1-1.36dee7b0.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-2.ae2472a9.png",
+                        "big": "img/detailPic1-2.179ba0bd.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-3.643ed842.png",
+                        "big": "img/detailPic1-3.88ee8bfd.png"
+                    }
+                ],
+                "team": null,
+                "color": {
+                    "title": "顏色配置",
+                    "pic": [
+                        {
+                            "style": "background:#1f2bd3"
+                        },
+                        {
+                            "style": "background:#efcf64"
+                        },
+                        {
+                            "style": "background:#9c0"
+                        }
+                    ],
+                    "text": "以台灣創建雲端的logo的主色調去做顏色，所以選擇解放藍當整個網站的主色，並以logo本身的延伸色，挑選出差不多的彩度和亮度的相近色去做搭配，點綴整個網站的豐富感。"
+                }
+            }
+        },
+        {
+            "name": "簡單聊天室",
+            "summary": "練習nodejs，練習socketIo，試著做一個小小聊天室",
+            "key": "test",
+            "show": true,
+            "img": "img/notYet.06548699.png",
+            "detail": {
+                "introduce": "純粹的練習。",
+                "titlePic": "img/titlePic1.24421090.png",
+                "url": "",
+                "gitHub": "",
+                "used": [
+                    {
+                        "name": "視覺/介面設計: ",
+                        "work": "XD"
+                    },
+                    {
+                        "name": "前端程式開發: ",
+                        "work": "html/Css"
+                    },
+                    {
+                        "name": "後端程式開發: ",
+                        "work": "nodejs"
+                    },
+                    {
+                        "name": "套件: ",
+                        "work": "socketIo"
+                    }
+                ],
+                "pics": [],
+                "team": null,
+                "color": null
+            }
+        },
+        {
+            "name": "liteOn",
+            "summary": "用react這框架時做一個網頁",
+            "key": "web",
+            "show": true,
+            "img": "img/pic12.ff5e84d3.png",
+            "detail": {
+                "introduce": "公司專案之一，主要給使用者方便看項目的執行內容，但這是將api拔除後的版本，目前內容都是hardcode",
+                "titlePic": "img/titlePic1.c962eab0.png",
+                "url": "https://felicia1910.github.io/liteon-view/",
+                "gitHub": "https://github.com/felicia1910/liteon-view",
+                "used": [
+                    {
+                        "name": "視覺/介面設計: ",
+                        "work": "PhotoShop/Illustrator"
+                    },
+                    {
+                        "name": "前端程式開發: ",
+                        "work": "Html5/Css3/JavaScript/SCSS"
+                    },
+                    {
+                        "name": "後端程式開發: ",
+                        "work": "無"
+                    },
+                    {
+                        "name": "套件: ",
+                        "work": "Bootstrap/Lightbox"
+                    }
+                ],
+                "pics": [
+                    {
+                        "name": "img/smalllPic1-1.6345f779.png",
+                        "big": "img/detailPic1-1.5dd6ce38.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-2.4fa7476c.png",
+                        "big": "img/detailPic1-2.241d6169.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-3.99e323eb.png",
+                        "big": "img/detailPic1-3.7a838339.png"
+                    }
+                ],
+                "team": null,
+                "color": {
+                    "title": "顏色配置",
+                    "pic": [
+                        {
+                            "style": "background:#0E6BA7"
+                        },
+                        {
+                            "style": "background:#EDF7FF"
+                        },
+                        {
+                            "style": "background:#ffffff"
+                        }
+                    ],
+                    "text": "以lite-on這家公司的網站去做延伸，藍白的搭配之外，為了增加看表單的辨識度，多配上低彩度低明度的水藍色去做搭配，讓使用者觀看體驗不這麼乏味。"
+                }
+            }
+        },
+        {
+            "name": "動物SINGLE50",
+            "summary": "一個人寂寞在家無法出門的寵物，是該讓他們在家也可以交朋友!",
+            "key": "web",
+            "show": true,
+            "img": "img/pic1.ef678273.png",
+            "detail": {
+                "introduce": "這是一個有一天腦洞大開寫的動物的交友網站，想著讓一個人寂寞在家無法出門的寵物，有一天也可以在家交朋友!",
+                "titlePic": "img/titlePic1.18136b6e.png",
+                "url": "https://felicia1910.github.io/personal_practice/index.html",
+                "gitHub": "https://github.com/felicia1910/personal_practice",
+                "used": [
+                    {
+                        "name": "視覺/介面設計: ",
+                        "work": "PhotoShop/Illustrator"
+                    },
+                    {
+                        "name": "前端程式開發: ",
+                        "work": "Html5/Css3/JavaScript"
+                    },
+                    {
+                        "name": "後端程式開發: ",
+                        "work": "無"
+                    },
+                    {
+                        "name": "套件: ",
+                        "work": "Bootstrap/Lightbox"
+                    }
+                ],
+                "pics": [
+                    {
+                        "name": "img/smalllPic1-1.30465add.png",
+                        "big": "img/detailPic1-1.88f181b8.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-2.ca983b56.png",
+                        "big": "img/detailPic1-2.7795670e.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-3.0a11b2a2.png",
+                        "big": "img/detailPic1-3.4c1a2a24.png"
+                    }
+                ],
+                "team": null,
+                "color": {
+                    "title": "顏色配置",
+                    "pic": [
+                        {
+                            "style": "background:#9c40ab"
+                        },
+                        {
+                            "style": "background:#a2c0e8"
+                        },
+                        {
+                            "style": "background:#ffffff"
+                        }
+                    ],
+                    "text": "藍色調但表著安定與平靜，紫色調則因為帶著紅色調的些許激情，兩種色調可以說是相近色卻帶著衝突感，代表著為雖為同為動物但性別又不同，並且當兩種顏色混合時因為是在色盤上為相近色所以是帶著協調的安定感。"
+                }
+            }
+        },
+        {
+            "name": "知音文創",
+            "summary": "知名文創品牌，模擬出一個後台網站!",
+            "key": "web",
+            "show": true,
+            "img": "img/pic2.3191b0da.png",
+            "detail": {
+                "introduce": "(團隊專案)以原本就存在的知音文創的網站作原型，我們改變了網站的主色系和大部分的網路地圖， 加入了可以讓使用者成為會員並在知音文創上購買東西的功能外，為了可以增加與使用者 的互動性和親密性，我們也加入了桌面佈置和客製音樂鈴的功能，目的是想讓使用者在使 用我們的網站時可以對我們的網站有更深刻的記憶連結。",
+                "titlePic": "img/titlePic1.573b8fd2.png",
+                "url": "",
+                "gitHub": "",
+                "used": [
+                    {
+                        "name": "視覺/介面設計: ",
+                        "work": "PhotoShop/Illustrator/Zeplin"
+                    },
+                    {
+                        "name": "前端程式開發: ",
+                        "work": "React/SCSS"
+                    },
+                    {
+                        "name": "後端程式開發: ",
+                        "work": "PHP/MySQL"
+                    }
+                ],
+                "pics": [
+                    {
+                        "name": "img/smalllPic2-1.c20abb6c.png",
+                        "big": "img/detailPic2-1.8e2a611e.png"
+                    },
+                    {
+                        "name": "img/smalllPic2-2.ad1d5e89.png",
+                        "big": "img/detailPic2-2.d5b1a5a5.png"
+                    },
+                    {
+                        "name": "img/smalllPic2-3.da6fbc51.png",
+                        "big": "img/detailPic2-3.f6b7b685.png"
+                    },
+                    {
+                        "name": "img/smalllPic2-4.28b663ec.png",
+                        "big": "img/detailPic2-4.f7115916.png"
+                    },
+                    {
+                        "name": "img/smalllPic2-5.fdc2820f.png",
+                        "big": "img/detailPic2-5.e99fef97.png"
+                    },
+                    {
+                        "name": "img/smalllPic2-6.96a92572.png",
+                        "big": "img/detailPic2-6.a2afd538.png"
+                    }
+                ],
+                "team": {
+                    "title": "團隊負責事項",
+                    "li": [
+                        {
+                            "name": "視覺/介面設計: ",
+                            "work": "首頁/關於知音/最新消息/玩玩知音/會員登入註冊頁面"
+                        },
+                        {
+                            "name": "前端程式開發: ",
+                            "work": " 首頁/關於知音/玩玩知音-客製音樂鈴頁面與功能製作/銷售通路/聯絡我們"
+                        },
+                        {
+                            "name": "後端程式開發: ",
+                            "work": "後端資料庫及API建置"
+                        }
+                    ]
+                },
+                "color": {
+                    "title": "顏色配置",
+                    "pic": [
+                        {
+                            "style": "background:#eeeeee"
+                        },
+                        {
+                            "style": "background:#e8aa67"
+                        },
+                        {
+                            "style": "background:#88a044"
+                        },
+                        {
+                            "style": "background:#606060"
+                        }
+                    ],
+                    "text": "色彩可以引發情緒、產生聯想，我們網站的色彩主要以這四種顏色為主，依序是為襯托其他顏色的低調白、抹茶綠、寧靜灰與最具代表此網站的主體色-小丑魚橘。 選擇小丑魚橘是以採用知音文創最具商標性的木製商品來當原型，接近木製質感但又不失可愛感，再以抹茶綠這個與小丑魚橘相差兩個色階的顏色當主配色去拉扯小丑魚橘的熱度，讓整個網站充滿趣味但不至於讓人疲乏。"
+                }
+            }
+        },
+        {
+            "name": "專業經理人",
+            "summary": "實際臨摹一個網站!",
+            "key": "cob",
+            "show": true,
+            "img": "img/pic3.310d361f.png",
+            "detail": {
+                "introduce": "從臨摹他人的網站開始踏進前端的領域。",
+                "titlePic": "img/titlePic3.1ea19887.png",
+                "url": "https://felicia1910.github.io/imitateSmallWeb",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "臨摹網站: ",
+                        "work": "經理人商學院",
+                        "a": "https://edm.managertoday.com.tw/lead/?_ga=2.61159720.587748734.1544692507-1192771633.1532401977"
+                    },
+                    {
+                        "name": "前端程式開發: ",
+                        "work": "Html5/Css3"
+                    },
+                    {
+                        "name": "後端程式開發: ",
+                        "work": "無"
+                    }
+                ],
+                "pics": null,
+                "team": null,
+                "color": null
+            }
+        },
+        {
+            "name": "GravityDaze",
+            "summary": "實際臨摹一個網站!",
+            "key": "cob",
+            "show": true,
+            "img": "img/pic4.cb76b59c.png",
+            "detail": {
+                "introduce": "從臨摹他人的網站開始踏進前端的領域。",
+                "titlePic": "img/titlePic4.4e0754c7.png",
+                "url": "https://felicia1910.github.io/ps4girl/",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "臨摹網站: ",
+                        "work": "GravityDaze",
+                        "a": "https://www.jp.playstation.com/scej/title/gravitydaze/"
+                    },
+                    {
+                        "name": "前端程式開發: ",
+                        "work": "Html5/Css3"
+                    },
+                    {
+                        "name": "後端程式開發: ",
+                        "work": "無"
+                    }
+                ],
+                "pics": null,
+                "team": null,
+                "color": null
+            }
+        },
+        {
+            "name": "livetools",
+            "summary": "實際臨摹一個網站!",
+            "key": "cob",
+            "show": true,
+            "img": "img/pic5.ee6de6fa.png",
+            "detail": {
+                "introduce": "從臨摹他人的網站開始踏進前端的領域。",
+                "titlePic": "img/pic5.ee6de6fa.png",
+                "url": "https://felicia1910.github.io/UISmall/",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "臨摹網站: ",
+                        "work": "livetools",
+                        "a": "http://livetools.uiparade.com/"
+                    },
+                    {
+                        "name": "前端程式開發: ",
+                        "work": "Html5/Css3"
+                    },
+                    {
+                        "name": "後端程式開發: ",
+                        "work": "無"
+                    }
+                ],
+                "pics": null,
+                "team": null,
+                "color": null
+            }
+        },
+        {
+            "name": "天氣盒子",
+            "summary": "用CodePen實作一個小頁面",
+            "key": "test",
+            "show": true,
+            "img": "img/pic6.ab232dda.png",
+            "detail": {
+                "introduce": "用簡易的程式碼去寫出一個具有動態效果的畫面。",
+                "titlePic": "img/pic6.ab232dda.png",
+                "url": "https://codepen.io/geladaa/full/NMEJbE",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "前端程式開發: ",
+                        "work": "Pug/Sass/Jquery"
+                    }
+                ],
+                "pics": null,
+                "team": null,
+                "color": null
+            }
+        },
+        {
+            "name": "模擬一支手機",
+            "summary": "用CodePen實作一個小頁面",
+            "key": "test",
+            "show": true,
+            "img": "img/pic7.f43a83d1.png",
+            "detail": {
+                "introduce": "用簡易的程式碼去寫出一個具有動態效果的畫面。",
+                "titlePic": "img/pic7.f43a83d1.png",
+                "url": "https://codepen.io/geladaa/full/qKyqyv/",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "前端程式開發: ",
+                        "work": "Pug/Sass/Jquery"
+                    }
+                ],
+                "pics": null,
+                "team": null,
+                "color": null
+            }
+        },
+        {
+            "name": "App音樂平台設計",
+            "summary": "平面設計，設計一個app頁面",
+            "key": "ui",
+            "show": true,
+            "img": "img/pic8.863676e8.png",
+            "detail": {
+                "introduce": "以粉色系設計出一個音樂app!",
+                "titlePic": "img/titlePic8.80dd8696.png",
+                "url": "no",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "視覺/介面設計: ",
+                        "work": " PhotoShop/Illustrator/XD"
+                    }
+                ],
+                "pics": [
+                    {
+                        "name": "img/page1.53975fd7.jpg",
+                        "big": "img/page1.ad6a9365.jpg"
+                    },
+                    {
+                        "name": "img/page2.08c67321.jpg",
+                        "big": "img/page2.32b9415f.jpg"
+                    },
+                    {
+                        "name": "img/page3.852b1191.jpg",
+                        "big": "img/page3.82d2f802.jpg"
+                    },
+                    {
+                        "name": "img/page4.334e5faa.jpg",
+                        "big": "img/page4.2ba8a816.jpg"
+                    },
+                    {
+                        "name": "img/page5.c3d11eb9.jpg",
+                        "big": "img/page5.4bfe1bb1.jpg"
+                    },
+                    {
+                        "name": "img/page6.527e8f29.jpg",
+                        "big": "img/page6.98a42e06.jpg"
+                    }
+                ],
+                "team": null,
+                "color": null
+            }
+        },
+        {
+            "name": "平面設計整合",
+            "summary": "平面設計各類細項整理",
+            "key": "ui",
+            "show": true,
+            "img": "img/pic9.62e649f0.png",
+            "detail": {
+                "introduce": "平面設計各類細項整理。",
+                "titlePic": "img/titlePic9.044a731b.png",
+                "url": "https://docs.google.com/presentation/d/1-62LxyxFSpD3If6tsD1BajMoPI5L7cr3mgKqjzhrJV4/edit#slide=id.p",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "視覺設計: ",
+                        "work": "PhotoShop/Illustrator/相機"
+                    }
+                ],
+                "pics": [
+                    {
+                        "name": "img/pic9-1.828b67df.jpg",
+                        "big": "img/pic9-1.828b67df.jpg"
+                    },
+                    {
+                        "name": "img/pic9-2.a710f832.jpg",
+                        "big": "img/pic9-2.a710f832.jpg"
+                    },
+                    {
+                        "name": "img/pic9-3.72119f89.jpg",
+                        "big": "img/pic9-3.72119f89.jpg"
+                    },
+                    {
+                        "name": "img/pic9-4.6f6138ca.jpg",
+                        "big": "img/pic9-4.6f6138ca.jpg"
+                    },
+                    {
+                        "name": "img/pic9-5.4d345b18.jpg",
+                        "big": "img/pic9-5.4d345b18.jpg"
+                    },
+                    {
+                        "name": "img/pic9-6.3a9ecc8e.jpg",
+                        "big": "img/pic9-6.3a9ecc8e.jpg"
+                    }
+                ],
+                "team": null,
+                "color": null
+            }
+        }
+    ]
+}

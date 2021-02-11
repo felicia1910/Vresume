@@ -1,15 +1,24 @@
 <template>
   <fragment>
-    <!-- //自我介紹 -->
+    <!-- 自我介紹 -->
     <div class="body">
       <nav-box @nav="nav"></nav-box>
-      <!-- //右邊 -->
+      <!-- 右邊 -->
       <div class="rightBox">
-        <!-- <div class="p">建議使用 Chrome 瀏覽器 1450 x 720以上 ，以確保最佳瀏覽效果</div> -->
+            <!-- 切換語系 UI -->
+            <div class="label-box">
+              <label
+                v-for="(item, index) in optionsLang"
+                v-bind:key="index"
+                :class="[index==optionsLang.length-1 && 'label-left']"
+              > 
+                <input type="radio" v-model="$store.state.lang" :value="item.value" v-on:change="setLang(item.value)"> {{ item.text }}
+              </label>
+            </div>
         <div class="whiteBox">
           <router-view />
         </div>
-        <div class="p pDown">建議使用 Chrome 瀏覽器 1450 x 720以上 ，以確保最佳瀏覽效果</div>
+        <div class="p pDown">{{ $t('alert')}}</div>
       </div>
     </div>
   </fragment>
@@ -24,12 +33,22 @@ export default {
   },
   data() {
     return {
-      id: true
+      id: true,
+      optionsLang: [
+        { text: '中文', value: 'ch' },
+        { text: 'English', value: 'en' }
+      ],
     };
   },
   methods: {
     nav(val) {
       this.$router.push({ name: val })
+    },
+    // 儲存切換的語系
+    setLang (value) {
+      this.$store.commit('setLang', value);
+      this.$i18n.locale = value;
+      localStorage.setItem('footmark-lang', value);
     }
   }
 };

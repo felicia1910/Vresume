@@ -17,7 +17,12 @@ import './setup/setupBootstrap'
 
 Vue.config.productionTip = false
 
+//i18n
+import i18n  from './setup/setupV18n'
+
+
 new Vue({
+  i18n,
   router,
   store,
   render: h => h(App)

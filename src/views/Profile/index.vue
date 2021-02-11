@@ -5,10 +5,10 @@
       <div class="longColorLine-box">
         <div class="longColorLine"></div>
         <div class="filterBox filterBoxClick">
-          <div :class="['clickBox',!v.click &&'op-0']" v-for="(v,k) in filter" :key="k"></div>
+          <div :class="['clickBox',nowClick!==v.key &&'op-0']" v-for="(v,k) in filter" :key="k"></div>
         </div>
         <div class="filterBox">
-          <div :class="['filterItem',,v.click &&'filterItem-click']" v-for="(v,k) in filter" :key="k" @click="filterFun(v,k)">{{v.name}}</div>
+          <div :class="['filterItem',nowClick!==v.key &&'filterItem-click']" v-for="(v,k) in filter" :key="k" @click="filterFun(v,k)">{{v.name}}</div>
         </div>
       </div>
 
@@ -22,9 +22,9 @@
       </div>
       <!-- 頁數 -->
       <div class="pagination">
-        <div :class="['click-page',nowPage===1&amp;&amp;'disable']" @click.prevent="changePage(nowPage-1)">上一頁</div>
+        <div :class="['click-page',nowPage===1&amp;&amp;'disable']" @click.prevent="changePage(nowPage-1)">{{$t('up')}}</div>
         <div v-for="n in pageNumber" :class="['number',nowPage === (n) &amp;&amp; 'now-click']" @click.prevent="changePage(n)">{{n}}</div>
-        <div :class="['click-page',nowPage===totalPage&amp;&amp;'disable']" @click.prevent="changePage(nowPage+1)">下一頁</div>
+        <div :class="['click-page',nowPage===totalPage&amp;&amp;'disable']" @click.prevent="changePage(nowPage+1)">{{$t('down')}}</div>
       </div>
   </div>
 </template>
@@ -39,13 +39,6 @@ export default {
   },
   data () {
     return {
-      filter: [
-        { name: '全部', click: true, key: 'all' },
-        { name: '網頁設計', click: false, key: 'web' },
-        { name: '臨摹網站', click: false, key: 'cob' },
-        { name: '功能實作', click: false, key: 'test' },
-        { name: '平面設計', click: false, key: 'ui' }
-      ],
       allWorkTmp:null,
       datas: [], // 分頁篩選過
       offset: 4, // 跳多少
@@ -55,13 +48,23 @@ export default {
       nowPage: 1, // 現在第幾頁
       perPage: 10, // 一頁幾個
       canLook: true,
-      turnDropData:[]
+      turnDropData:[],
+      nowClick:'all'
     }
   },
   computed: {
     ...mapGetters('Profile', {
       'allWork':'profile'
     }),
+    filter(){ 
+        return [
+          { name:this.$t('categoryList[0].name'), key: 'all' },
+          { name:this.$t('categoryList[1].name'), key: 'web' },
+          { name:this.$t('categoryList[2].name'), key: 'cob' },
+          { name:this.$t('categoryList[3].name'), key: 'test' },
+          { name:this.$t('categoryList[4].name'), key: 'ui' }
+        ]
+    },
     pageNumber () {
       let arr = []
       if (this.canLook) {
@@ -74,8 +77,15 @@ export default {
     }
   },
   async mounted () {
-    this.allWorkTmp=this.allWork
+    this.allWorkTmp=this.$t('profile')//this.allWork
     await this.start()
+  },
+  watch:{
+    '$store.state.lang'(val){
+      this.allWorkTmp=this.$t('profile')//this.allWork
+      this.nowClick='all'
+      this.start ()
+    }
   },
   methods: {
     start () {
@@ -122,10 +132,7 @@ export default {
       if (this.lastPage > this.totalPage) { this.lastPage = this.totalPage };
     },
     filterFun (val, key) {
-      console.log(val)
-      this.filter = this.filter.map((e, k) => {
-        return { ...e, click: k == key? true:false  }
-      })
+      this.nowClick=val.key
       this.allWorkTmp = this.allWorkTmp.map((e, k) => {
         return {
           ...e,
@@ -133,7 +140,7 @@ export default {
         }
       })
 
-      this.start(val)
+      this.start()
     },
     routeFun (val) {
       this.$router.push({ name: 'page', params: { ...val } })

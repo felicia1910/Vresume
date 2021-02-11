@@ -1,0 +1,705 @@
+{
+    "name": "Felicia",
+    "alert": "Recommend that you should use Chrome browser and above 1450 x 720 window to have the best experience.",
+    "description": "From Graphic design to Web design, now is a Front-end engineer, going to learn some backend skills this year. ",
+    "skill": {
+        "ui": "I major in Graphic design, can use the different tool in the different requirement.Use AdobeXD design web or App,or use illustrator design icon,or use Photoshop photo retouching",
+        "dom": "Proficient understanding of web markup, including HTML5, PUG, CSS3, SCSS, and javascript",
+        "ux": "Can translate UI/UX designs and wireframes into high-quality code",
+        "js": "2+ years of experience in various JavaScript frameworks, such as Node, ReactJS, Redux, Vue, Vuex, and familiarity with REST APIs"
+    },
+    "lang": {
+        "ch": "Chinese level",
+        "en": "English level"
+    },
+    "scholl": {
+        "name": "National Dong Hwa University",
+        "major": "Bachelor of Fine Arts",
+        "high": "Bachelor degree",
+        "miror": "Miror in teacher education program"
+    },
+    "introduction": "Before becoming a FrontEnd Engineer, I was a Graphic designer. But the challenge was not enought for me in graphic design, And after I got more about programming language, I decide to change careers.In July 2018, I start to study FrontEnd in Institute for Information Industry<br /><br />When I was study, I facing a lot of ordeals in UI, UX and FrontEnd, but I also got a deep sense when I solving these promble. These fields covers a large wide range, and update quickly. Hope I can work hard to foster my professional ability and knowledge here to stay.<br/><br/>After graduation from Institute for Information Industry, I work in Cloudnifier, it's one of the Microsoft partner company. Because it heart of BackEnd before, so I become this company first FrontEnd Engineer, In charge of UI design, or discuss UX with colleague and translate the UI/UX designs and wireframes into high-quality code, or integrating the frontend UI with the constructed API. Also this company won't give me so much limit, so I can use different JavaScript frameworks in different project, it get me a lot of experience.<br/><br/>Because these fields update quickly, so I make a schedule once a year to study, and I am going to learn Vue3.0 these two or three month, after than, I will learn some Node.js of BackEnd technology, or Nuxt, or automation of FrontEnd. Sometime it feel a litte tired to chasing technology, but it also feel good to try hard, so I will do my best.",
+    "work": [
+        {
+            "name": "Chieng Kang Enterprise",
+            "text": "I was a intern of Graphic designer."
+        },
+        {
+            "name": "SinPu Elementary School",
+            "text": "I was a teacher, teaching anything I can teach."
+        },
+        {
+            "name": "HAPPY SHOPPING CO",
+            "text": "I was a Graphic designer, design banner or photo retouching."
+        },
+        {
+            "name": "Cloudnifier",
+            "text": "I was a Graphic designer, design banner or photo retouching."
+        }
+    ],
+    "category": "category",
+    "categoryList": [
+        {
+            "name": "All"
+        },
+        {
+            "name": "Web Design"
+        },
+        {
+            "name": "Web Imitate"
+        },
+        {
+            "name": "Function Testing"
+        },
+        {
+            "name": "Graphic Design"
+        }
+    ],
+    "up": "Up",
+    "down": "Down",
+    "imgTitle": "Main picture",
+    "clickUrl": "Click here",
+    "workNotYet": "Working",
+    "colorTitle": "Color Match",
+    "technologyTitle": "Technology",
+    "teamTitle": "Team",
+    "imgWatch": "Preview",
+    "imgDetail": "Magnified Image",
+    "profile": [
+        {
+            "name": "FlowChart",
+            "summary": "FlowChart project，User can control this webSide to achieve automation schedule",
+            "key": "web",
+            "show": true,
+            "img": "img/pic10.8bd93edb.png",
+            "detail": {
+                "introduce": "Design the Ui, translate the UI/UX designs and wireframes into code is all do it by myself, Because is a B2B project, so it only can show the frontEnd, the data should be come from backend all change into hardcode.",
+                "titlePic": "img/titlePic1.e75b24bf.png",
+                "url": "https://felicia1910.github.io/flowCartViewPage/",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "UI Design: ",
+                        "work": "PhotoShop/Illustrator/XD"
+                    },
+                    {
+                        "name": "FrontEnd: ",
+                        "work": "Vue/Vuex/SCSS"
+                    },
+                    {
+                        "name": "BackEnd: ",
+                        "work": "Null"
+                    },
+                    {
+                        "name": "Plugin: ",
+                        "work": "Bootstrap/diagram-js-minimap/jsplumb/vue-datetim"
+                    }
+                ],
+                "pics": [
+                    {
+                        "name": "img/smalllPic1-1.209d8f24.png",
+                        "big": "img/detailPic1-1.a0bb74ae.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-2.70d868a9.png",
+                        "big": "img/detailPic1-2.8bfc2fcd.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-3.9b2542e7.png",
+                        "big": "img/detailPic1-3.a8144805.png"
+                    }
+                ],
+                "team": null,
+                "color": {
+                    "title": "顏色配置",
+                    "pic": [
+                        {
+                            "style": "background:#ffffff"
+                        },
+                        {
+                            "style": "background:#084172"
+                        },
+                        {
+                            "style": "background:#c9dbec"
+                        }
+                    ],
+                    "text": ""
+                }
+            }
+        },
+        {
+            "name": "Try to use Vue3.0",
+            "summary": "Testing what is differences between Vue 2 and Vue 3",
+            "key": "test",
+            "show": true,
+            "img": "img/pic13.7664551f.png",
+            "detail": {
+                "introduce": "One of the company project, Because is a B2B project, so it only can show the frontEnd, the data should be come from backend all change into hardcode.This project that me make sure Vue 3 some expected upgrades turn into a reality. The expected means that it makes our application smaller, faster, and more powerful.",
+                "titlePic": "img/pic13.7664551f.png",
+                "url": "https://felicia1910.github.io/company-samll-demo-vue3/",
+                "gitHub": "https://github.com/felicia1910/company-samll-demo-vue3/tree/gh-pages",
+                "used": [
+                    {
+                        "name": "UI Design: ",
+                        "work": "XD"
+                    },
+                    {
+                        "name": "FrontEnd: ",
+                        "work": "Vue3.0(cdn)"
+                    },
+                    {
+                        "name": "BackEnd: ",
+                        "work": "Null"
+                    },
+                    {
+                        "name": "Plugin: ",
+                        "work": "Null"
+                    }
+                ],
+                "pics": [],
+                "team": null,
+                "color": {
+                    "title": "顏色配置",
+                    "pic": [],
+                    "text": ""
+                }
+            }
+        },
+        {
+            "name": "Cloudnifier",
+            "summary": "Company website for testing, is not the final website.",
+            "key": "web",
+            "show": true,
+            "img": "img/pic11.137799f1.png",
+            "detail": {
+                "introduce": "Design the Ui, translate the UI/UX designs and wireframes into code, is company website for testing, is not the final website.",
+                "titlePic": "img/titlePic1.f645a506.png",
+                "url": "https://cnfofficialuat.azurewebsites.net/",
+                "gitHub": "https://github.com/felicia1910/cloudCompanyDemo",
+                "used": [
+                    {
+                        "name": "UI Design: ",
+                        "work": "PhotoShop/Illustrator/XD"
+                    },
+                    {
+                        "name": "FrontEnd: ",
+                        "work": "Vue/Vuex/SCSS"
+                    },
+                    {
+                        "name": "BackEnd: ",
+                        "work": "Null"
+                    },
+                    {
+                        "name": "Plugin: ",
+                        "work": "Bootstrap/vue2-google-maps/vue-typer/vue-particles"
+                    }
+                ],
+                "pics": [
+                    {
+                        "name": "img/smalllPic1-1.fd1c8348.png",
+                        "big": "img/detailPic1-1.36dee7b0.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-2.ae2472a9.png",
+                        "big": "img/detailPic1-2.179ba0bd.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-3.643ed842.png",
+                        "big": "img/detailPic1-3.88ee8bfd.png"
+                    }
+                ],
+                "team": null,
+                "color": {
+                    "title": "顏色配置",
+                    "pic": [
+                        {
+                            "style": "background:#1f2bd3"
+                        },
+                        {
+                            "style": "background:#efcf64"
+                        },
+                        {
+                            "style": "background:#9c0"
+                        }
+                    ],
+                    "text": ""
+                }
+            }
+        },
+        {
+            "name": "Chatroom",
+            "summary": "Testing nodejs,useing socketIo,try to make a chatroom.",
+            "key": "test",
+            "show": true,
+            "img": "img/notYet.06548699.png",
+            "detail": {
+                "introduce": "Testing.",
+                "titlePic": "img/titlePic1.24421090.png",
+                "url": "",
+                "gitHub": "",
+                "used": [
+                    {
+                        "name": "UI Design: ",
+                        "work": "XD"
+                    },
+                    {
+                        "name": "FrontEnd: ",
+                        "work": "html/Css"
+                    },
+                    {
+                        "name": "BackEnd: ",
+                        "work": "nodejs"
+                    },
+                    {
+                        "name": "Plugin: ",
+                        "work": "socketIo"
+                    }
+                ],
+                "pics": [],
+                "team": null,
+                "color": null
+            }
+        },
+        {
+            "name": "liteOn",
+            "summary": "Use ReactJs to do a web",
+            "key": "web",
+            "show": true,
+            "img": "img/pic12.ff5e84d3.png",
+            "detail": {
+                "introduce": "One of the company project, Because is a B2B project, so it only can show the frontEnd, the data should be come from backend all change into hardcode. Design the Ui, translate the UI/UX designs and wireframes into code is all do it by myself",
+                "titlePic": "img/titlePic1.c962eab0.png",
+                "url": "https://felicia1910.github.io/liteon-view/",
+                "gitHub": "https://github.com/felicia1910/liteon-view",
+                "used": [
+                    {
+                        "name": "UI Design: ",
+                        "work": "PhotoShop/Illustrator"
+                    },
+                    {
+                        "name": "FrontEnd: ",
+                        "work": "Html5/Css3/JavaScript/SCSS"
+                    },
+                    {
+                        "name": "BackEnd: ",
+                        "work": "Null"
+                    },
+                    {
+                        "name": "Plugin: ",
+                        "work": "Bootstrap/Lightbox"
+                    }
+                ],
+                "pics": [
+                    {
+                        "name": "img/smalllPic1-1.6345f779.png",
+                        "big": "img/detailPic1-1.5dd6ce38.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-2.4fa7476c.png",
+                        "big": "img/detailPic1-2.241d6169.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-3.99e323eb.png",
+                        "big": "img/detailPic1-3.7a838339.png"
+                    }
+                ],
+                "team": null,
+                "color": {
+                    "title": "顏色配置",
+                    "pic": [
+                        {
+                            "style": "background:#0E6BA7"
+                        },
+                        {
+                            "style": "background:#EDF7FF"
+                        },
+                        {
+                            "style": "background:#ffffff"
+                        }
+                    ],
+                    "text": ""
+                }
+            }
+        },
+        {
+            "name": "Animal SINGLE50",
+            "summary": "Your pet are lonely when you are not at home, you should let your pet use this online dating to meet new friend!",
+            "key": "web",
+            "show": true,
+            "img": "img/pic1.ef678273.png",
+            "detail": {
+                "introduce": "In my opinion, pet are too lonely in the house, so I make this web.",
+                "titlePic": "img/titlePic1.18136b6e.png",
+                "url": "https://felicia1910.github.io/personal_practice/index.html",
+                "gitHub": "https://github.com/felicia1910/personal_practice",
+                "used": [
+                    {
+                        "name": "UI Design: ",
+                        "work": "PhotoShop/Illustrator"
+                    },
+                    {
+                        "name": "FrontEnd: ",
+                        "work": "Html5/Css3/JavaScript"
+                    },
+                    {
+                        "name": "BackEnd: ",
+                        "work": "Null"
+                    },
+                    {
+                        "name": "Plugin: ",
+                        "work": "Bootstrap/Lightbox"
+                    }
+                ],
+                "pics": [
+                    {
+                        "name": "img/smalllPic1-1.30465add.png",
+                        "big": "img/detailPic1-1.88f181b8.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-2.ca983b56.png",
+                        "big": "img/detailPic1-2.7795670e.png"
+                    },
+                    {
+                        "name": "img/smalllPic1-3.0a11b2a2.png",
+                        "big": "img/detailPic1-3.4c1a2a24.png"
+                    }
+                ],
+                "team": null,
+                "color": {
+                    "title": "顏色配置",
+                    "pic": [
+                        {
+                            "style": "background:#9c40ab"
+                        },
+                        {
+                            "style": "background:#a2c0e8"
+                        },
+                        {
+                            "style": "background:#ffffff"
+                        }
+                    ],
+                    "text": ""
+                }
+            }
+        },
+        {
+            "name": "Wooderful Life",
+            "summary": "Wooderful Life",
+            "key": "web",
+            "show": true,
+            "img": "img/pic2.3191b0da.png",
+            "detail": {
+                "introduce": "The final project in Institute for Information Industry, this is a team project.",
+                "titlePic": "img/titlePic1.573b8fd2.png",
+                "url": "",
+                "gitHub": "",
+                "used": [
+                    {
+                        "name": "UI Design: ",
+                        "work": "PhotoShop/Illustrator/Zeplin"
+                    },
+                    {
+                        "name": "FrontEnd: ",
+                        "work": "React/SCSS"
+                    },
+                    {
+                        "name": "BackEnd: ",
+                        "work": "PHP/MySQL"
+                    }
+                ],
+                "pics": [
+                    {
+                        "name": "img/smalllPic2-1.c20abb6c.png",
+                        "big": "img/detailPic2-1.8e2a611e.png"
+                    },
+                    {
+                        "name": "img/smalllPic2-2.ad1d5e89.png",
+                        "big": "img/detailPic2-2.d5b1a5a5.png"
+                    },
+                    {
+                        "name": "img/smalllPic2-3.da6fbc51.png",
+                        "big": "img/detailPic2-3.f6b7b685.png"
+                    },
+                    {
+                        "name": "img/smalllPic2-4.28b663ec.png",
+                        "big": "img/detailPic2-4.f7115916.png"
+                    },
+                    {
+                        "name": "img/smalllPic2-5.fdc2820f.png",
+                        "big": "img/detailPic2-5.e99fef97.png"
+                    },
+                    {
+                        "name": "img/smalllPic2-6.96a92572.png",
+                        "big": "img/detailPic2-6.a2afd538.png"
+                    }
+                ],
+                "team": {
+                    "title": "團隊負責事項",
+                    "li": [
+                        {
+                            "name": "UI Design: ",
+                            "work": "首頁/關於知音/最新消息/玩玩知音/會員登入註冊頁面"
+                        },
+                        {
+                            "name": "FrontEnd: ",
+                            "work": " 首頁/關於知音/玩玩知音-客製音樂鈴頁面與功能製作/銷售通路/聯絡我們"
+                        },
+                        {
+                            "name": "BackEnd: ",
+                            "work": "後端資料庫及API建置"
+                        }
+                    ]
+                },
+                "color": {
+                    "title": "顏色配置",
+                    "pic": [
+                        {
+                            "style": "background:#eeeeee"
+                        },
+                        {
+                            "style": "background:#e8aa67"
+                        },
+                        {
+                            "style": "background:#88a044"
+                        },
+                        {
+                            "style": "background:#606060"
+                        }
+                    ],
+                    "text": ""
+                }
+            }
+        },
+        {
+            "name": "Manager",
+            "summary": "Web Imitate",
+            "key": "cob",
+            "show": true,
+            "img": "img/pic3.310d361f.png",
+            "detail": {
+                "introduce": "Web Imitate",
+                "titlePic": "img/titlePic3.1ea19887.png",
+                "url": "https://felicia1910.github.io/imitateSmallWeb",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "Web Imitate: ",
+                        "work": "Manager",
+                        "a": "https://edm.managertoday.com.tw/lead/?_ga=2.61159720.587748734.1544692507-1192771633.1532401977"
+                    },
+                    {
+                        "name": "FrontEnd: ",
+                        "work": "Html5/Css3"
+                    },
+                    {
+                        "name": "BackEnd: ",
+                        "work": "Null"
+                    }
+                ],
+                "pics": null,
+                "team": null,
+                "color": null
+            }
+        },
+        {
+            "name": "GravityDaze",
+            "summary": "Web Imitate",
+            "key": "cob",
+            "show": true,
+            "img": "img/pic4.cb76b59c.png",
+            "detail": {
+                "introduce": "Web Imitate",
+                "titlePic": "img/titlePic4.4e0754c7.png",
+                "url": "https://felicia1910.github.io/ps4girl/",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "Web Imitate: ",
+                        "work": "GravityDaze",
+                        "a": "https://www.jp.playstation.com/scej/title/gravitydaze/"
+                    },
+                    {
+                        "name": "FrontEnd: ",
+                        "work": "Html5/Css3"
+                    },
+                    {
+                        "name": "BackEnd: ",
+                        "work": "Null"
+                    }
+                ],
+                "pics": null,
+                "team": null,
+                "color": null
+            }
+        },
+        {
+            "name": "livetools",
+            "summary": "Web Imitate",
+            "key": "cob",
+            "show": true,
+            "img": "img/pic5.ee6de6fa.png",
+            "detail": {
+                "introduce": "Web Imitate",
+                "titlePic": "img/pic5.ee6de6fa.png",
+                "url": "https://felicia1910.github.io/UISmall/",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "臨摹網站: ",
+                        "work": "livetools",
+                        "a": "http://livetools.uiparade.com/"
+                    },
+                    {
+                        "name": "FrontEnd: ",
+                        "work": "Html5/Css3"
+                    },
+                    {
+                        "name": "BackEnd: ",
+                        "work": "Null"
+                    }
+                ],
+                "pics": null,
+                "team": null,
+                "color": null
+            }
+        },
+        {
+            "name": "Wheather Box",
+            "summary": "Use codePen to practice my CSS.",
+            "key": "test",
+            "show": true,
+            "img": "img/pic6.ab232dda.png",
+            "detail": {
+                "introduce": "Use codePen to practice my CSS.",
+                "titlePic": "img/pic6.ab232dda.png",
+                "url": "https://codepen.io/geladaa/full/NMEJbE",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "FrontEnd: ",
+                        "work": "Pug/Sass/Jquery"
+                    }
+                ],
+                "pics": null,
+                "team": null,
+                "color": null
+            }
+        },
+        {
+            "name": "Phone",
+            "summary": "Use codePen to practice my Javascript.",
+            "key": "test",
+            "show": true,
+            "img": "img/pic7.f43a83d1.png",
+            "detail": {
+                "introduce": "Use codePen to practice my Javascript.",
+                "titlePic": "img/pic7.f43a83d1.png",
+                "url": "https://codepen.io/geladaa/full/qKyqyv/",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "FrontEnd: ",
+                        "work": "Pug/Sass/Jquery"
+                    }
+                ],
+                "pics": null,
+                "team": null,
+                "color": null
+            }
+        },
+        {
+            "name": "App Design",
+            "summary": "Try to design app UI.",
+            "key": "ui",
+            "show": true,
+            "img": "img/pic8.863676e8.png",
+            "detail": {
+                "introduce": "Try to design app UI.",
+                "titlePic": "img/titlePic8.80dd8696.png",
+                "url": "no",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "UI Design: ",
+                        "work": " PhotoShop/Illustrator/XD"
+                    }
+                ],
+                "pics": [
+                    {
+                        "name": "img/page1.53975fd7.jpg",
+                        "big": "img/page1.ad6a9365.jpg"
+                    },
+                    {
+                        "name": "img/page2.08c67321.jpg",
+                        "big": "img/page2.32b9415f.jpg"
+                    },
+                    {
+                        "name": "img/page3.852b1191.jpg",
+                        "big": "img/page3.82d2f802.jpg"
+                    },
+                    {
+                        "name": "img/page4.334e5faa.jpg",
+                        "big": "img/page4.2ba8a816.jpg"
+                    },
+                    {
+                        "name": "img/page5.c3d11eb9.jpg",
+                        "big": "img/page5.4bfe1bb1.jpg"
+                    },
+                    {
+                        "name": "img/page6.527e8f29.jpg",
+                        "big": "img/page6.98a42e06.jpg"
+                    }
+                ],
+                "team": null,
+                "color": null
+            }
+        },
+        {
+            "name": "Graphic design",
+            "summary": "Graphic designer",
+            "key": "ui",
+            "show": true,
+            "img": "img/pic9.62e649f0.png",
+            "detail": {
+                "introduce": "Graphic designer",
+                "titlePic": "img/titlePic9.044a731b.png",
+                "url": "https://docs.google.com/presentation/d/1-62LxyxFSpD3If6tsD1BajMoPI5L7cr3mgKqjzhrJV4/edit#slide=id.p",
+                "gitHub": null,
+                "used": [
+                    {
+                        "name": "視覺設計: ",
+                        "work": "PhotoShop/Illustrator/相機"
+                    }
+                ],
+                "pics": [
+                    {
+                        "name": "img/pic9-1.828b67df.jpg",
+                        "big": "img/pic9-1.828b67df.jpg"
+                    },
+                    {
+                        "name": "img/pic9-2.a710f832.jpg",
+                        "big": "img/pic9-2.a710f832.jpg"
+                    },
+                    {
+                        "name": "img/pic9-3.72119f89.jpg",
+                        "big": "img/pic9-3.72119f89.jpg"
+                    },
+                    {
+                        "name": "img/pic9-4.6f6138ca.jpg",
+                        "big": "img/pic9-4.6f6138ca.jpg"
+                    },
+                    {
+                        "name": "img/pic9-5.4d345b18.jpg",
+                        "big": "img/pic9-5.4d345b18.jpg"
+                    },
+                    {
+                        "name": "img/pic9-6.3a9ecc8e.jpg",
+                        "big": "img/pic9-6.3a9ecc8e.jpg"
+                    }
+                ],
+                "team": null,
+                "color": null
+            }
+        }
+    ]
+}

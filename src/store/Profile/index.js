@@ -2,7 +2,7 @@
 const state = {
   profile:[
     //
-    { name: '拖著拉著', summary: '自動化流程專案，使用者能將要做的事項依照自己需求指定時間和順序執行。', key: 'web', show: true, img: require('@/assets/img/pic10.png'),
+    { name: '', summary: '自動化流程專案，使用者能將要做的事項依照自己需求指定時間和順序執行。', key: 'web', show: true, img: require('@/assets/img/pic10.png'),
      detail: {
         introduce: '從視覺、使用者體驗、前端開發都獨自一人開發的自動化流程專案，因為屬於b2b的專案，所以這邊只有自己前端開發時的版本，資料改裝假資料。',
         titlePic:require('@/assets/img/pic10/titlePic1.png'),
@@ -136,8 +136,8 @@ const state = {
         team:null,
         color:{
           title:'顏色配置',
-          pic:[{style:'background:#0E6BA7'},{style:'background:#EDF7FF'},{style:'background:#ffffff'}],
-          text:'以lite-on這家公司的網站去做延伸，藍白的搭配之外，為了增加看表單的辨識度，多配上低彩度低明度的水藍色去做搭配，讓使用者觀看體驗不這麼乏味。'
+          pic:[{style:'background:#9c40ab'},{style:'background:#a2c0e8'},{style:'background:#ffffff'}],
+          text:'藍色調但表著安定與平靜，紫色調則因為帶著紅色調的些許激情，兩種色調可以說是相近色卻帶著衝突感，代表著為雖為同為動物但性別又不同，並且當兩種顏色混合時因為是在色盤上為相近色所以是帶著協調的安定感。'
         },
     }},
     { name: '知音文創', summary: '知名文創品牌，模擬出一個後台網站!', key: 'web', show: true, img: require('@/assets/img/pic2.png'),
